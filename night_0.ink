@@ -26,7 +26,7 @@ This one is right on the line.
 
 = headquarters
 
-For an ancient order, the headquarters is not impressive by any means. A rented office above a nail salon inside of a strip mall. Buzzing fluorescent lights. A coffee maker that's been brewing the same pot since before you were born. Maybe since before Silas was born.
+For an ancient order, the headquarters is not impressive by any means. A rented office above a nail salon inside of a Las Vegas strip mall. Buzzing fluorescent lights. A coffee maker that's been brewing the same pot since before you were born. Maybe since before Silas was born.
 
 Silas is standing at the end of a long table with an open folder. Paper. He doesn't trust anything digital. You see a map, two photographs, and a new cell phone still in its box.
 
@@ -107,16 +107,16 @@ His finger thuds on the map.
 ->the_assignment_questions
 
 =the_horrorco
-"Almost nothing. They're incorporated in Delaware. Shell company structure. No public-facing leadership. No press interviews. No social media presence except for marketing. For a company running the most popular haunted attraction in the country, they are remarkably invisible.
+"Almost nothing. They're incorporated in Delaware. Shell company structure. No public-facing leadership. No press interviews. No social media presence except for marketing. For a company running the most popular haunted attraction in the country, they are remarkably invisible."
 ->the_assignment_questions
 
 =the_flagged
-"Disappearances. Over the past three years, at least eight people connected to The Hollows have vanished. Guests, employees, a local contractor. Local police investigated and found nothing. All cold cases, closed. The pattern caught our attention.
+"Disappearances. Over the past three years, at least eight people connected to The Hollows have vanished. Guests, employees, a local contractor. Local police investigated and found nothing. All cold cases, closed. The pattern caught our attention."
 ->the_assignment_questions
 
 = the_ask
 
-Sylas gestures at the boxed phone.
+Silas gestures at the boxed phone.
 
 "Burner. Encrypted line. My number is the only contact. Report in every twenty-four hours. If I don't hear from you in forty-eight, I'm sending a team."
 
