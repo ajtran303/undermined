@@ -1,5 +1,3 @@
--> night_0
-
 === night_0 ===
 
 = the_call
@@ -12,8 +10,9 @@ You've been with the Order of the Night for three years now. Long enough to know
 
 This one is right on the line.
 
-* Pick up the phone.
-* Let it ring a second longer, then pick up.
+* [Pick up the phone.]
+* [Let it ring a second longer, then pick up.]
+    ~ silas_trust -= 1
     You let it ring three times. A small rebellion. Silas will notice it.
     
 - "It's Ward." His voice is flat, curt, the way it always is. You've never heard the man laugh and you're not sure if he can. "We have a situation. Get here now."
@@ -47,7 +46,7 @@ He slides the other photograph across the table. It's a promotional shot of the 
 * "Odd how?"
 * "Define odd."
 
-- "She said the place felt wrong. Not haunted. She's handled hauntings. She said it felt... hungry.
+- "She said the place felt wrong. Not haunted. She's handled hauntings. She said it felt... hungry."
 
 * "Hungry?"
 * [Keep listening.]
@@ -67,11 +66,26 @@ The facts settle in the air.
 
 "Mara Castillo worked there for ten days. She reported to me from inside. And now they are saying she never existed."
 
-* "Could she have used a cover name?"
+-> headquarters_answers
+
+= headquarters_answers
+
+* {not the_cover_name} "Could she have used a cover name?"
+    -> the_cover_name
+* {not the_record} "That's not possible.["] There has to be a record."
+    -> the_record
+* {not the_wait} [Continue] You wait.
+    -> the_wait
+
+= the_cover_name
 "She did. I assigned one to her, 'Elena Voss." No record of that name."
-* "That's not possible.["] There has to be a record."
+    -> headquarters_answers
+    
+= the_record
 "That's what I thought. But I assigned our digital forensics team to look remotely at the employee databases. No payroll records. We checked the security footage but the cameras recycle every 2 days. Convenient."
-* [...] You wait.
+    -> headquarters_answers
+
+= the_wait
 Silas is unusually quiet. He always has an answer, even if it's "insufficient data."
 
 - "I think something there is capable of making people disappear. But I don't know how."
@@ -135,6 +149,7 @@ He organizes the files back into the folder. His gaze rises to meet you directly
     -> the_drive
 * "Understanding the threat is the priority."
     ~ priority = "investigate_paranormal"
+    ~ silas_trust += 1
     Silas nods.
     "The Order's mission is to identify and contain threats. Mara knew the risks. If we understand what we're dealing with, we're better positioned to help her and anyone else."
     -> before_the_drive
@@ -195,7 +210,7 @@ You have six hours.
 * [Call Silas and confirm you've arrived.]
     ~ silas_trust += 1
     ~ rested += 1 
-    He picks up on one ring.
+    You call Silas. He picks up on one ring.
     "You're there? Good. Get some rest. Report in after your first shift. And be careful."
     -> end_night_0
 
@@ -215,6 +230,5 @@ The air changes immediately. Cooler. Damp. And underneath everything, that hum.
 
 You're inside.
 
-// -> day_1
-
--> END
+* [Continue]
+    -> day_1
