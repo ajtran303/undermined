@@ -297,7 +297,7 @@ Not dramatically. Not impossibly. But the timber support that was ten feet to yo
     The way they say it. Not confused. Not skeptical. Like this is advice they've had to give before.
     -> post_midnight
 * [You remember what Bex said. The layout gets confusing after midnight. Stay in your zone.]
-    You pull back into the boo hole. You sit on the stool. You don't look at the doorway. The next group comes through and you hit the window and you scream and you do your job.
+    You pull back into the boo hole. You don't look at the doorway. The next group comes through and you hit the window and you scream and you do your job.
     When you lean out again ten minutes later, the doorway is gone. The timber support is back where it was.
     -> post_midnight
 
@@ -387,6 +387,8 @@ You try a broader search. All employees hired in the past two months. A list com
 
 No Mara. No Elena. No gap in the records where someone was removed. It's not that her file was deleted. It's like the system never knew she existed.
 
+~ night_1_employee_records_checked = true
+
 -> records_hub
 
 = records_hub
@@ -451,17 +453,18 @@ Either Dale Ruskin is the most dedicated employee in American history, or this f
 
 = records_exit
 
+~ dale_suspicion += 1
 You hear a sound from the corridor. Footsteps. Slow.
 
 The break room door opens.
 
-It's a floor manager you don't recognize. They glance at you.
+It's Dale. He glances at you.
 
-"You're the new hire? Val?"
+"Val!"
 
 "Yeah. Just finishing up."
 
-"Building closes to staff at 3. Don't stay late." They hold the door open for you. It's not a suggestion.
+"Building closes to staff at 3. Don't stay late." He holds the door open for you. It's not a suggestion.
 
 * [Leave.]
     -> end_night_1
@@ -489,4 +492,4 @@ You set your alarm for noon. You charge the burner phone on the nightstand.
 You close your eyes.
 
 * [Day 2]
-    -> DONE
+    -> day_2
