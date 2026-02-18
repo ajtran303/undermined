@@ -26,6 +26,8 @@ The shorthand is there. Your handwriting. Your marks. But the fluency is stutter
 
 {erasure_level < 5: You force yourself through the notes. Line by line. The shorthand comes back as you work, grudgingly, like a muscle warming up. But the ease is gone. What used to be second nature now requires effort.}
 
+You have been undermined. Something below this town has been eating upward through the rock, the roads, the memories, and now through you.
+
 The portal isn't just erasing you from other people's memories. It's erasing you from yourself.
 
 -> bex_arrival
