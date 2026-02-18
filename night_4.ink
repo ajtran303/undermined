@@ -433,15 +433,15 @@ He looks at the cavern below. The portal.
 
 The portal breathes.
 
-You feel it before you see it. The pressure in the chamber shifts. The hum drops in pitch, so low it becomes a vibration in your organs, your lungs, the fluid in your eyes. The amber light brightens. The air temperature spikes, ten degrees in a second, twenty. Your skin prickles. Your hair lifts.
+You feel it before you see it. The pressure in the chamber shifts. The hum drops in pitch, so low it becomes a vibration in your organs, your lungs, the fluid in your eyes. The glow flares white at the edges, bleaching the stone walls pale, turning every mote of dust in the air into a bright point of light. The air temperature spikes, ten degrees in a second, twenty. Sweat breaks under the costume. The greasepaint on your knuckles softens, goes slick, starts to run.
 
 The exhale.
 
-A wall of force hits you from below. Not wind. Not heat. Something heavier, something that has mass and intention, that pushes you the way a wave pushes you if you're standing in the wrong place at the wrong time. You stagger backward. Your feet slip on the worn steps. You catch yourself on the wall. The stone is burning hot under your palm.
+It hits you from below. Your lungs flatten. Your inner ear lurches sideways. Not wind. A column of heat and particulate boiling up from the portal, thick as smoke but denser, hotter, carrying the copper-ozone smell ten times stronger and something new underneath it: sulfur. Sharp. Chemical. It hits the back of your throat and you gag. The force rolls through you the way a wave rolls through you if you're standing in the wrong place at the wrong time. You stagger backward. Your feet slip on the worn steps. You catch yourself on the wall. The stone is burning hot under your palm.
 
 Dale doesn't move. The exhale passes through him like he isn't there. Or like he's part of it.
 
-The force drives you up. One step. Two. Three. You brace yourself and it pushes you further. The mine groans. Dust falls from the ceiling. A crack appears in the wall beside you, a line of amber light opening in the stone and then closing again as the exhale passes.
+The force drives you up. One step. Two. Three. You brace yourself and it pushes you further. The mine groans. Dust falls from the ceiling. The smoke curls along the low points, pooling in the carved hollows of the walls. A crack opens in the stone beside you. Not amber in the fissure. White. Searing. The color of heated metal. It holds for a second. Two. Then it closes, and where it was the stone is dark and scorched, a hairline burn mark that smells like struck flint.
 
 {has_ritual_knowledge: Two seconds. The pause between exhales is two seconds. You counted it from above. Now you feel it: the exhale lasts four seconds and the force is enormous. The pause is two seconds of stillness. Two seconds to act. Two seconds to carve a pattern that was meant to hold this shut.}
 
@@ -449,7 +449,7 @@ The force drives you up. One step. Two. Three. You brace yourself and it pushes 
 
 The exhale fades. The pressure drops. The temperature settles.
 
-Dale stands on the steps below you. The amber light pulses behind him. He hasn't moved.
+Dale stands on the steps below you. The smoke drifts between you, thinning, lit from below. The sulfur smell is still thick in the air. He hasn't moved.
 
 "Tomorrow," he says. "If you're still here tomorrow. It'll be over one way or another."
 
