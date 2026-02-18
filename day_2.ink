@@ -133,8 +133,6 @@ The line goes dead. You're not sure if he hung up or if the call just stopped.
         -> gloria_day_2_hub
 }
 
--> gloria_day_2_hub
-
 = gloria_day_2_hub
 
 * {not gloria_sinkhole} [Ask about the sinkhole.]
