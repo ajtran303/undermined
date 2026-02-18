@@ -6,6 +6,9 @@ INCLUDE night_2.ink
 INCLUDE day_3.ink
 INCLUDE night_3.ink
 INCLUDE day_4.ink
+INCLUDE night_4.ink
+
+
 
 
 
@@ -23,6 +26,7 @@ VAR has_dale_file = false
 VAR has_escape_route = false
 VAR has_gloria_testimony = false
 VAR has_horrorco_filing = false
+VAR has_mara_pages = false
 VAR has_mara_recording = false
 VAR has_notebook_page = false
 VAR has_portal_mechanics = false
@@ -35,6 +39,7 @@ VAR post_shift_2_keep_quiet = false
 VAR priority = ""
 VAR silas_trust = 1
 VAR visited_restricted_passage = false
+VAR visited_tunnels = false
 VAR day_4_visits = 0
 
 

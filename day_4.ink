@@ -74,11 +74,12 @@ You step aside. They walk into the motel room. They move carefully, looking at t
 
 "I've been maintaining the carvings," Bex says. "In the tunnels. Deep in the mine, on the walls. There are symbols carved into the stone. Old ones. Much older than the mine."
 
-{has_notebook_page: Mara's notebook page. The symbols she categorized: containment, feeding, opening. The containment ones. Bex has been maintaining them.}
+{has_mara_pages: Mara's pages. The symbols she categorized: containment, feeding, opening. The containment ones. Bex has been maintaining them.}
+{has_notebook_page && not has_mara_pages: Mara's notebook page. The symbols she was mapping. "Not decorative. Functional?" Now Bex is telling you what they're for.}
 
 {has_portal_mechanics: Silas's intel. The 1971 field agent. Containment sigils. Someone tried to keep the portal shut. That someone is sitting in your motel room.}
 
-{not has_notebook_page && not has_portal_mechanics: You haven't seen them. But Bex talks about them the way an engineer talks about load-bearing walls: with the certainty of someone who knows what happens if they fail.}
+{not has_notebook_page && not has_mara_pages && not has_portal_mechanics: You haven't seen them. But Bex talks about them the way an engineer talks about load-bearing walls: with the certainty of someone who knows what happens if they fail.}
 
 "Someone carved them a long time ago. Before the mine. Before the town. They were meant to hold it closed. When the mine broke through, in '73, the sigils cracked. Not all of them. Enough." Bex's voice is steady. Practiced. Like they've rehearsed this in their head for years, waiting for someone to tell.
 
@@ -270,7 +271,8 @@ Symbols. Hand-copied, painstakingly, with the careful strokes of an engineer rep
 
 But this is the complete pattern. Or close to it. Martin Aldrich found the symbols in the deepest tunnels when they were first dug. He didn't know what they meant. He copied them because that's what engineers do: they document what they find.
 
-{has_notebook_page: Mara categorized the symbols into three types: containment, feeding, opening. Martin's page shows the containment pattern. The full circuit. The lock that was supposed to hold the portal shut.}
+{has_mara_pages: Mara categorized the symbols into three types: containment, feeding, opening. Martin's page shows the containment pattern. The full circuit. The lock that was supposed to hold the portal shut.}
+{has_notebook_page && not has_mara_pages: Mara's notebook page showed fragments of this same pattern. Martin's page shows the whole thing. The full circuit. The lock that was supposed to hold the portal shut.}
 
 {has_portal_mechanics: The 1971 agent found fragments of this pattern and recommended sealing the shaft. If the Order had listened, the full pattern might have been preserved. Instead, the sinkhole broke it. Martin's copy is the only record of what it looked like before.}
 
@@ -460,6 +462,7 @@ You set it down. You pick it up again. The number is still there. You should rem
 
 = day_4_tunnels
 
+~ visited_tunnels = true
 ~ dale_suspicion += 1
 ~ erasure_level += 1
 ~ mara_clues += 1
@@ -482,7 +485,7 @@ Past the last mid-level zone, the attraction ends. No more placards. No more set
 
 On the wall, at the boundary between show and mine: a handprint in copper-colored dust. Small. A woman's hand.
 
-{has_mara_recording: Mara's hand. She came this way. Through the show, past the mid-level, to the edge of the deep rooms. Following the same path you're following now.}
+{has_mara_pages: Mara's hand. She came this way. Through the show, past the mid-level, to the edge of the deep rooms. Following the same path you're following now.}
 
 Below the handprint, scratched into the stone with something sharp: an arrow. Pointing down.
 
@@ -512,11 +515,13 @@ You close the motel room door. Sit on the bed. Spread everything out.
 
 {has_mara_recording: Mara's voice recorder. You press play. Her voice fills the room, steady and professional. "Day eight. I've confirmed access to the lower levels..." You listen to the whole thing again. Day eight. Day nine. Day ten. Then silence.}
 
-{has_notebook_page: Mara's notebook page. The diagram of symbols. Her annotations in cramped handwriting. Three types: containment, feeding, opening. A system designed to hold something shut, co-opted to tear it open.}
+{has_mara_pages: Mara's pages. A hand-drawn map of all three levels, the portal marked at the bottom. Three types of symbols: containment, feeding, opening. A timeline connecting each new scare zone to a disappearance. "The containment is being undermined from inside."}
+
+{has_notebook_page: Mara's notebook page from the maintenance tunnel. The diagram of symbols, painstakingly copied. Her annotations: arrows, question marks, circles around patterns. "Not decorative. Functional?" And the torn sentence that stops mid-thought.}
 
 {has_portal_mechanics: Silas's intel, written down in your own shorthand (you have to concentrate to read it now): the Order investigated the mine in 1971. Containment sigils. Field agent recommended sealing the shaft. The Order filed the report and did nothing.}
 
-{has_sinkhole_history: The newspaper clipping. June 15, 1973. The Aldrich Silver Mine. Forty-eight dead. "The mine did not collapse upward. It collapsed downward, as if drawn into the earth."}
+{has_sinkhole_history: The newspaper clipping. June 15, 1973. The Aldrich Silver Mine. Forty-eight dead. Rescue teams found the shaft had grown deeper, not shallower — "beyond the reach of available sounding equipment."}
 
 {has_horrorco_filing: HorrorCo Entertainment, LLC. Incorporated June 22, 1973. One week after the sinkhole. M. Aldrich, Registered Agent. A dead man's name on a company that wouldn't arrive for twenty-five years.}
 
@@ -568,7 +573,5 @@ The staff entrance. The corridor. The fluorescent lights.
 
 You walk to the costume room.
 
-Last shift.
-
-* [Night 5.]
-    -> DONE
+* [Tonight.]
+    -> night_4

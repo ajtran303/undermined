@@ -104,6 +104,7 @@ He looks at you. Blank. Friendly, but blank. The way you look at someone you've 
     He squints at you. Thinks. Then his face lights up.
     "Oh, right! Yeah, sorry. Didn't recognize you with the..." He gestures at your makeup. "Long nights, you know?"
     It sounds right. It probably is right.
+    Later, you see him chatting with a floor manager, gesturing in your direction. Small building. Word travels.
     ~ dale_suspicion += 1
     -> enter_shaft
 
@@ -194,9 +195,9 @@ Not at the far end this time. Maybe thirty feet away. In the middle of the passa
 
 Same as last night. Black base layer. A mask that doesn't belong to any zone: rough, shapeless, like burlap stitched over a face. Standing perfectly still.
 
-But tonight you notice something you couldn't see at distance last night. The costume underneath isn't a costume. It's a mining jumpsuit. Not distressed by a costume department. Old. Actually old. The fabric is stiff and faded in a way that takes decades, not a spray bottle and a sanding block. The stitching is wrong for modern clothing. The cut is wrong.
+But tonight you're close enough to see what you couldn't at distance. The base layer is wrong. Not the stiff, fresh-issue black that The Hollows hands out. The fabric is worn thin. Faded unevenly, like it's been underground for much longer than any shift. The seams are fraying. There's a mineral crust along the hems, as if it got wet and dried and got wet again dozens of times.
 
-It looks like something from the '70s.
+Someone has been wearing this for weeks. Maybe longer.
 
 {mara_clues == 0: That's all you can make out. The light is too low for more detail.}
 {mara_clues == 1: Something about the figure's build nags at you. The height. The posture. You can't place it, but there's a familiarity you can't explain. Like a face you've seen in a photograph but never in person.}
@@ -214,7 +215,7 @@ It looks like something from the '70s.
     -> figure_vanish_2
 * [Stay in the alcove. Watch.]
     You press against the stone and watch. The figure stands in the corridor. You count. Ten seconds. Twenty. Thirty. They don't shift their weight. They don't breathe visibly. They just stand.
-    The jumpsuit has a name patch on the chest. You squint. The light is too low. You can almost read it.
+    The mineral crust on the fabric. It's not random. There's a pattern to the staining, concentrated at the hands, the knees, the hem. Whoever this is has been kneeling. Crawling. Working in the dark for a long time.
     -> figure_vanish_2
 
 = figure_vanish_2

@@ -312,7 +312,7 @@ Silence on the line.
 
 The diner is small, warm, and mostly empty. Checkered floor, vinyl booths, a counter with stools. The kind of place that hasn't been updated since the '80s because it didn't need to be.
 
-The woman behind the counter is in her late 70s, maybe older. She moves with a careful precision. Her eyes are sharp. A name tag reads GLORIA.
+The woman behind the counter is in her early sixties. She moves with a careful precision. Her eyes are sharp. A name tag reads GLORIA.
 
 She sets a coffee down in front of you before you ask for one.
 

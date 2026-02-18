@@ -162,7 +162,7 @@ Page two: notes on the symbols. She's categorized them into three types. The fir
 
 Page three: a timeline. She's mapped the disappearances against the expansion of The Hollows. Every time a new scare zone was added, someone vanished within the following month. The attraction isn't just feeding the portal. It's growing it.
 
-~ has_mara_recording = true
+~ has_mara_pages = true
 ~ mara_clues += 1
 
 At the bottom of the third page, a final note:
@@ -184,6 +184,8 @@ At the bottom of the third page, a final note:
 
 = mara_pages_after
 
+~ has_mara_pages = true
+
 You unfold the pages. A hand-drawn map of all three levels, with the portal marked at the bottom. Notes categorizing the symbols into three types: containment, feeding, and opening. A timeline connecting new scare zones to disappearances.
 
 At the bottom: "If I don't come back, give this to whoever comes looking for me."
@@ -191,6 +193,8 @@ At the bottom: "If I don't come back, give this to whoever comes looking for me.
 -> gloria_day_3_response
 
 = mara_recorder_after
+
+~ has_mara_recording = true
 
 You press play. Mara's voice, steady and careful. She describes the attraction feeding fear to the portal. A figure watching her in the deep rooms. The erasure accelerating. A door she plans to go through.
 

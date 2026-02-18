@@ -119,7 +119,7 @@ The line goes dead. You're not sure if he hung up or if the call just stopped.
     "You again." She pours you a coffee without asking. "Sit down."
 - else:
     The diner is called ALDRICH'S. Small, warm, mostly empty. Checkered floor, vinyl booths, a counter with stools. Hasn't been updated since the '80s.
-    The woman behind the counter is in her late 70s, maybe older. She moves with careful precision. Sharp eyes. Her name tag reads GLORIA.
+    The woman behind the counter is in her early sixties. She moves with careful precision. Sharp eyes. Her name tag reads GLORIA.
     She sets a coffee down in front of you before you ask for one.
     "You're new."
     It's not a question.
@@ -216,7 +216,7 @@ Gloria's mouth tightens.
     -> gloria_workers_more
 * "Have you noticed anyone disappear?"
     Gloria is quiet for a while.
-    "There was a young woman. About a month ago. Came in a few times. Dark hair, sharp eyes. Ordered the same thing every time: black coffee and the meatloaf."
+    "There was a young woman. A few weeks back. Came in a few times. Dark hair, sharp eyes. Ordered the same thing every time: black coffee and the meatloaf."
     Your stomach drops.
     -> gloria_mara
 
@@ -229,7 +229,7 @@ Gloria's mouth tightens.
     ~ gloria_trust += 1
     -> gloria_day_2_hub
 * "What do you mean, they don't age right?"
-    "I mean Dale Ruskin looked fifty years old in 1998 and he looks fifty years old now. I mean Bex looked twenty-five when the place opened and they look twenty-five today." She sets her jaw. "I'm eighty-two. I know what aging looks like. Those people aren't doing it."
+    "I mean Dale Ruskin looked fifty years old in 1998 and he looks fifty years old now. I mean Bex looked twenty-five when the place opened and they look twenty-five today." She sets her jaw. "I'm sixty-one. I know what aging looks like. Those people aren't doing it."
     ~ gloria_trust += 1
     -> gloria_day_2_hub
 
@@ -353,7 +353,7 @@ You cross-reference with the 2010 directory. Population: 51. Many of the same na
 
 The 2020 directory. Population: 54. Same core names. Same addresses. A few more additions.
 
-In twenty years, the town has gained seven people and lost zero.
+In two decades, the town has gained seven people and lost zero.
 
 Nobody has died. Nobody has moved away. In a town of fifty people, over two decades, not a single person has left.
 

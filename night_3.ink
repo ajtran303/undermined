@@ -11,6 +11,7 @@ Bex is at their station.
 {visited_restricted_passage:
     {post_shift_2_tell_bex: They work fast. Prosthetic gash, greasepaint, mask. Efficient hands, no eye contact. The "please" from last night sits between you like something neither of you wants to pick up.}
     {post_shift_2_keep_quiet: They work at normal pace. Professional. But once, when they hand you the mask, their eyes drop to your hands. The copper stains are gone. Bex remembers them anyway.}
+    {not post_shift_2_tell_bex && not post_shift_2_keep_quiet: They work at their usual pace. Prosthetic gash, greasepaint, mask. You feel the weight of what you found last night, but Bex's expression gives nothing away. Same routine.}
 }
 {not visited_restricted_passage: They work at their usual pace. Prosthetic gash, greasepaint, mask. Same routine, third night running.}
 
@@ -328,7 +329,7 @@ The corridor runs deeper into the mountain. The concrete floor gives way to ston
 
 You're behind the show. This is the space between the walls, the infrastructure that guests never see and actors aren't supposed to either. Service access for the mid-level.
 
-{has_mara_recording: Mara's map showed the service corridors. She marked them in blue. You're standing on a blue line right now.}
+{has_mara_pages: Mara's map showed the service corridors. She marked them in blue. You're standing on a blue line right now.}
 
 The walls transition. Concrete to stone. New construction to old mine. You can see the seam where the building ends and the earth begins. Someone has bolted a steel bracket to the stone with a sign: AUTHORIZED PERSONNEL ONLY BEYOND THIS POINT.
 
@@ -454,7 +455,7 @@ The stairwell opens onto a corridor that is wider than anything in the upper zon
 
 This is mid-level. You're standing at the boundary between the attraction and the mine.
 
-{has_mara_recording: Mara's map. You can picture it. The stairwell connects to the junction between Zones 7 and 8. The mid-level scare zones are to the left. The path to the deep rooms is to the right. Down.}
+{has_mara_pages: Mara's map. You can picture it. The stairwell connects to the junction between Zones 7 and 8. The mid-level scare zones are to the left. The path to the deep rooms is to the right. Down.}
 
 You can hear the show from here. Muffled screams. A bass hit from a speaker. The mechanical clank of an animatronic. The attraction is running, even on a slow night, even half-staffed, the machine keeps going.
 
@@ -530,6 +531,8 @@ Tuck laughs. Easy, unbothered. Same person who said "I guess I haven't thought a
     Bex is at their station. Quiet. Routine.
     {stairwell_descent:
         Your hands are warm. You can still feel the hum in your fingertips from the handrail. You found the way down. Mid-level. The junction. The path to the deep rooms.
+        Bex glances at you once. Their eyes linger on your hands, still flushed from the warmth below.
+        -> post_shift_3_bex
     }
     {not stairwell_descent:
         -> post_shift_3_end
@@ -563,13 +566,18 @@ Tuck laughs. Easy, unbothered. Same person who said "I guess I haven't thought a
 
 = figure_absence
 
-You realize it as you're walking out. The corridor. The zones. The gaps between groups, the long slow silences.
+{dale_suspicion >= 5:
+    You realize it as you're walking out. The building. The parking lot. The corridors in the first half of the shift, the long cold silence of the perimeter in the second.
+}
+{dale_suspicion < 5:
+    You realize it as you're walking out. The corridor. The zones. The gaps between groups, the long slow silences.
+}
 
 No figure.
 
-Night 1, the Figure appeared in The Collapse. Night 2, in The Shaft, closer. Tonight: nothing. No motionless shape at the end of a corridor. No burlap mask. No 1970s jumpsuit standing in the dark.
+Night 1, the Figure appeared in The Collapse. Night 2, in The Shaft, closer. Tonight: nothing. No motionless shape at the end of a corridor. No burlap mask. No faded silhouette standing in the dark.
 
-You expected it. You were watching for it. Every long lull, every empty corridor, you found yourself scanning the shadows for something that shouldn't be there.
+You expected it. You were watching for it. Every long lull, every empty stretch, you found yourself scanning the shadows for something that shouldn't be there.
 
 It wasn't.
 

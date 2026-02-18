@@ -196,7 +196,7 @@ You set your bag down and plug in the burner phone. You draw the shades shut acr
 
 Orientation is at 2 PM.
 
-You have six hours.
+You have eight hours.
 
 * [Try to sleep.]
     You manage a few hours of shallow, restless sleep. You dream about a mine shaft that goes down forever. You wake up feeling slightly more alert.
