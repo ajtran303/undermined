@@ -529,4 +529,4 @@ Tomorrow night. One more shift. One more descent.
 This time you're going all the way down.
 
 * [Day 5.]
-    -> DONE
+    -> day_5
