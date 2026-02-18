@@ -24,7 +24,9 @@ The shorthand is there. Your handwriting. Your marks. But the fluency is stutter
 
 {erasure_level >= 5: You can't remember the drive. You know you drove from Las Vegas to Veinrock. You know it took hours. But the memory is flat, dimensionless, like reading about something that happened to someone else. The desert. The highway. The turn onto the two-lane road. All of it is there, technically, but drained of the feeling of having been there.}
 
-{erasure_level < 5: You force yourself through the notes. Line by line. The shorthand comes back as you work, grudgingly, like a muscle warming up. But the ease is gone. What used to be second nature now requires effort.}
+{erasure_level == 4: You open your notebook. The shorthand is there, your handwriting, your marks. You can still read it, but you have to concentrate in a way you didn't three days ago. And there's something else. You try to picture your apartment in Las Vegas. The layout. The color of the walls. The view from the window. You know you have one. You know you've lived there. But the image won't form. It's not gone — it's fading, like a photograph left in the sun.}
+
+{erasure_level < 4: You force yourself through the notes. Line by line. The shorthand comes back as you work, grudgingly, like a muscle warming up. But the ease is gone. What used to be second nature now requires effort.}
 
 You have been undermined. Something below this town has been eating upward through the rock, the roads, the memories, and now through you.
 

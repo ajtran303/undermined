@@ -214,7 +214,7 @@ You step out of the wall. Peel the foam rock away from your shoulder. Flex your 
 
 {bex_relationship < 5 && not visited_tunnels && has_mara_pages: Mara's map. The hand-drawn layout of all three levels, the portal marked at the bottom. You've memorized the route. Past Zone 8, through the utility corridor, down.}
 
-{bex_relationship < 5 && not visited_tunnels && not has_mara_recording: You don't have a map. You don't have directions. But you have the hum and the heat, and they both pull the same direction: down. You follow them past the last zone, past the set dressing, into stone.}
+{bex_relationship < 5 && not visited_tunnels && not has_mara_pages: You don't have a map. You don't have directions. But you have the hum and the heat, and they both pull the same direction: down. You follow them past the last zone, past the set dressing, into stone.}
 
 The transition is the same as always. Plywood gives way to rock. Paint gives way to dust. The temperature rises. The hum gets louder with every step down, vibrating through the handrails, through the steps, through the bones of your feet.
 
@@ -399,7 +399,7 @@ He shifts on the step. The amber light catches his face and for a moment he look
 
 "You could stay. That's what I'm offering. Not a threat. An opportunity. You could be part of this for a long time. Like Bex. Like the others."
 
-* "Like Bex?[ Bex doesn't remember their own name.]"
+* "Like Bex?["] Bex doesn't remember their own name."
     Dale is quiet for a moment. "Bex has been here a long time. Longer than most. The details fade. But the work doesn't. The purpose doesn't."
     -> dale_exhale
 * "What does 'a long time' mean?"
@@ -419,13 +419,13 @@ He looks at the cavern below. The portal.
 
 "It doesn't close. I want you to understand that. It's been open for longer than the mine, longer than the town, longer than anything built on this land. It was here when the mountain was just rock and sagebrush. It'll be here when the mountain is gone."
 
-* "Then what's the point of all this?[ The Hollows? The show?]"
+* "Then what's the point of all this?["] The Hollows? The show?"
     "Management." He says it simply. "What we built up there isn't a cage. It's a management system. We keep it fed so it doesn't feed itself." He pauses. "The fear. The guests' fear. It's controlled. Measured. Enough to keep it satisfied without letting it reach out on its own. Without HorrorCo, the portal would take what it needs. Randomly. Violently. The whole town. Maybe more."
     -> dale_exhale
 * "Who are you?"
     "I'm the manager." He says it without irony, without performance. "Someone has to be. Someone has to make sure the system runs. That the balance holds. That the thing down there stays fed and doesn't get hungry."
     -> dale_exhale
-* "The people it's erased.[ Mara. The others.]"
+* "The people it's erased.["] Mara. The others."
     Dale closes his eyes. "Costs. I don't pretend otherwise. The system isn't clean. It isn't kind. But the alternative..." He opens his eyes. Looks at you. "The alternative is worse."
     -> dale_exhale
 

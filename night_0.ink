@@ -34,7 +34,7 @@ He picks up one photograph and holds it up.
 "Mara Castillo. Do you know her?"
 
 * "We've met before, briefly."
-* "I know the name"
+* "I know the name."
 * "She handled the Winslow case, right?"
 
 - "Three weeks ago, I sent Mara to investigate a location in Nevada. A year-round haunted attraction called The Hollows. It's built inside an old mine outside of a town called Veinrock. She went in undercover, hired as a scare actor."
@@ -78,7 +78,7 @@ The facts settle in the air.
     -> headquarters_wait
 
 = headquarters_cover_name
-"She did. I assigned one to her, 'Elena Voss'." No record of that name."
+"She did. I assigned one to her, 'Elena Voss.' No record of that name."
 -> headquarters_answers
     
 = headquarters_record
@@ -162,7 +162,7 @@ He organizes the files back into the folder. His gaze rises to meet you directly
 
 1 AM.
 
-The drive is six hours through the empty Nevada desert highway. Your headlights cut a tunnel through the dark and reflects the occasional pair of animal eyes from the shoulder of the road.
+The drive is six hours through the empty Nevada desert highway. Your headlights cut a tunnel through the dark and reflect the occasional pair of animal eyes from the shoulder of the road.
 
 You think about Mara. You met her once, at an Order debrief in Denver. She was sharp, careful, the kind of person who checked exits when she walked into a room. Not the kind of person who disappears.
 
@@ -198,18 +198,42 @@ Orientation is at 2 PM.
 
 You have eight hours.
 
-* [Try to sleep.]
-    You manage a few hours of shallow, restless sleep. You dream about a mine shaft that goes down forever. You wake up feeling slightly more alert.
--> end_night_0
-* [You're not going to sleep. Explore the town.]
-    ~ day_1_gloria = true
-    You walk along the main road as the sun comes up. Everything is closed. The town feels like a movie set. Facades with nothing behind them. You notice the diner opens at 7. An older adult woman behind the window turns on lights. You don't go in yet, but you've clocked her.
--> end_night_0
-* [Call Silas and confirm you've arrived.]
-    ~ silas_trust += 1
-    You call Silas. He picks up on one ring.
-    "You're there? Good. Get some rest. Report in after your first shift. And be careful."
--> end_night_0
+-> veinrock_hub
+
+= veinrock_hub
+
+* {not veinrock_sleep} [Try to sleep.]
+    -> veinrock_sleep
+* {not veinrock_explore} [Explore the town.]
+    -> veinrock_explore
+* {not veinrock_silas} [Call Silas and confirm you've arrived.]
+    -> veinrock_silas
+* {veinrock_sleep || veinrock_explore || veinrock_silas} [Head to orientation.]
+    -> end_night_0
+
+= veinrock_sleep
+
+You manage a few hours of shallow, restless sleep. You dream about a mine shaft that goes down forever. You wake up feeling slightly more alert.
+
+-> veinrock_hub
+
+= veinrock_explore
+
+~ day_1_gloria = true
+
+You walk along the main road as the sun comes up. Everything is closed. The town feels like a movie set. Facades with nothing behind them. You notice the diner opens at 7. An older adult woman behind the window turns on lights. You don't go in yet, but you've clocked her.
+
+-> veinrock_hub
+
+= veinrock_silas
+
+~ silas_trust += 1
+
+You call Silas. He picks up on one ring.
+
+"You're there? Good. Get some rest. Report in after your first shift. And be careful."
+
+-> veinrock_hub
 
 = end_night_0
 
