@@ -499,6 +499,14 @@ On the wall, at the boundary between show and mine: a handprint in copper-colore
 
 Below the handprint, scratched into the stone with something sharp: an arrow. Pointing down.
 
+{not has_notebook_page: And beside the arrow, tucked into a crack in the stone where the wall meets the floor: a folded page. Notebook paper, creased and dusty. You pull it out. A diagram. Symbols arranged in concentric arcs, painstakingly reproduced in hard pencil. Annotations in cramped handwriting: arrows connecting repeating elements, question marks next to unfamiliar symbols, circles around patterns the author thought were significant.}
+
+{not has_notebook_page: Mara's handwriting. Another page from her notebook. She was mapping these symbols across the mine, leaving copies of her work like breadcrumbs.}
+
+{not has_notebook_page: You fold it carefully and pocket it. {~ has_notebook_page = true} }
+
+{has_notebook_page: You already have Mara's diagram from the maintenance tunnel. But here, beside the arrow, you can see where she pressed her hand against the wall while she worked. The copper dust holds her print perfectly. She stood exactly where you're standing.}
+
 You follow it.
 
 The corridor descends. The utility lights thin out. The last one illuminates a steel door, open, hanging on its hinges. Past the door: darkness. But not total darkness. A faint glow from below, amber, pulsing. The hum is so strong here that your vision blurs at the edges. Your teeth ache. Your skin prickles with static.

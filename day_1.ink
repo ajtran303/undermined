@@ -394,6 +394,7 @@ She's done talking. For now. But you can feel it. She has more. She's been waiti
 
 * [Eat and head back.]
     The meatloaf is, in fact, decent.
+    ~ ate_meatloaf = true
     -> pre_night_1_hub
 
 = to_night_1

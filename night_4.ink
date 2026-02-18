@@ -395,6 +395,8 @@ He doesn't move. He doesn't need to. The stairwell is narrow. He fills it.
 
 = dale_offer
 
+~ dale_made_offer = true
+
 His voice is quiet. Not threatening. Something closer to disappointment.
 
 "You're a good worker, Val. You know that? Reliable. Focused. The guests respond to you. You've got the instinct for it."

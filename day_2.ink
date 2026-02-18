@@ -268,6 +268,7 @@ Gloria clears your coffee cup.
     -> day_2_hub
 * [Eat and leave.]
     The meatloaf is{day_1_gloria: still} decent.
+    ~ ate_meatloaf = true
     -> day_2_hub
 
 = day_2_library

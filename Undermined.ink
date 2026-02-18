@@ -7,18 +7,27 @@ INCLUDE day_3.ink
 INCLUDE night_3.ink
 INCLUDE day_4.ink
 INCLUDE night_4.ink
+INCLUDE day_5.ink
+INCLUDE stubs.ink
 
 
 
 
 
 
+
+
+VAR ate_meatloaf = false
 VAR bex_hum = false
 VAR bex_relationship = 0
+VAR dale_made_offer = false
 VAR dale_suspicion = 0
 VAR employee_records_seen = false
 VAR erasure_level = 0
 VAR day_1_gloria = false
+VAR day_5_horrorco_done = false
+VAR day_5_gloria_done = false
+VAR day_5_silas_done = false
 VAR gloria_trust = 0
 VAR has_bex_file = false
 VAR has_census_data = false
