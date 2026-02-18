@@ -87,7 +87,21 @@ The scream is genuine. One of them grabs another. They stumble past, fast, looki
 
 Reset. Next group. Three minutes.
 
-You settle into the rhythm. The work is harder down here. More physical. The twist in the wall compresses your spine. The prosthetic gash pulls at your skin with each extension. Your shoulder burns after the tenth group.
+Contact scares are a different craft. In the uppers, you triggered reactions. A window, a lunge, a scream. The guest jumps and it's over. Down here, you sustain them. Your arm comes through the wall and stays. The fingers move. You grab. The guests are supposed to feel you. That's the contract they signed when they bought the premium ticket. The startle is just the beginning. What follows is the slow, deliberate certainty that something in the wall has you and is not letting go.
+
+After about ten groups, you start to find it. The grab has to be firm enough to register but loose enough to release clean. You learn to read the hesitation: the moment a guest feels your hand and hasn't decided yet whether to pull away or freeze. That's the window. You hold through it. Then you let go. They stumble forward. Next group.
+
+The set design is better down here. The sound is spatial, not just directional. Creaking timbers from above, water dripping from below, the low grinding of rock against rock somewhere behind the walls. The fog is thicker and it doesn't pulse on a timer. It seeps. The zones bleed into each other instead of having clean transitions. No painted plywood dividers, no glow-tape pathways. The corridor narrows and widens and narrows again like a throat. The real stone is right there, inches behind the foam. You can feel it when you brace your arm. Cold and rough and older than anything built on top of it.
+
+A group of five comes through. They've done this before. Extreme haunt veterans. You can tell by the way they spread out instead of bunching up, by the way they lean into the corridor instead of flinching from it. When your arm comes through the wall, one of them grabs back. Wraps a hand around your wrist and grins in the dark. Holds on. You're supposed to be the one grabbing, but now you're locked together and neither of you is letting go. You wait them out. After four seconds, they release, laugh, slap their friend's shoulder. Move on.
+
+A couple. One of them wanted this. The other didn't. You can see it in the body language: one pulling forward, one braking. The reluctant one is pressed against the far wall of the corridor, as far from your position as the narrow space allows. When your arm comes through, the willing one flinches and laughs. The reluctant one makes a sound that isn't a scream. It's smaller than that. A caught breath. Their eyes are wet. The contact scare hits different when the person didn't choose to be here. You let go fast. They hurry past. You hear them arguing around the corner, voices tight and hushed.
+
+A solo guest. Mid-level allows singles. They walk through alone, hands at their sides, pace steady. No phone light. No nervous chatter. When your arm comes through the wall, they stop. They don't scream. They don't flinch. They look at your hand. Your fingers, still curled in the grab position, greasepaint cracking at the knuckles. They reach out and touch your fingers. Gently. Like checking if you're real. Skin on skin, for just a moment. Then they walk on without looking back. It's the most unsettling reaction you've had all week.
+
+This is the job. Sustained. Physical. Intimate. Four nights in and your body is a catalogue of compound damage. The spinal twist in the wall sits on top of the shoulder from Night 1's window, which sits on top of the leg ache from Night 2's stalker walk, which sits on top of the core strain from Night 3's narrow gap. The prosthetic gash has rubbed a raw welt into your cheek that stings with each extension. Four nights of greasepaint have left a chemical smell on your skin that soap won't touch. You can taste copper in the back of your throat, though you don't know if that's the makeup or the mine.
+
+By 10:30, you've done maybe forty groups. The rhythm is in your body. Extend, grab, hold, release. Reset. The three-minute interval is automatic. You don't count anymore. You feel the next group coming in the vibration of the floor, in the shift of the fog, in the change in air pressure when bodies enter the corridor.
 
 But the rhythm is wrong tonight.
 
