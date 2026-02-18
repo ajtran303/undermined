@@ -456,4 +456,4 @@ Room 6. Door locked. Shades drawn.
 You set your alarm for noon.
 
 * [Day 3]
-    -> DONE
+    -> day_3
