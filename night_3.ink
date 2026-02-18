@@ -154,9 +154,7 @@ Tuck is two positions down, close enough to whisper between groups. You can't se
     -> tuck_bex
 * {not tuck_staying} [Ask how long they've been here.]
     -> tuck_staying
-* {not tuck_strange} [Ask if they've noticed anything strange.]
-    -> tuck_strange
-* {tuck_dale || tuck_bex || tuck_staying || tuck_strange} [A group is coming. Back to work.]
+* {tuck_dale || tuck_bex || tuck_staying} [A group is coming. Back to work.]
     -> buried_mid_shift
 
 = tuck_dale
@@ -210,19 +208,6 @@ They say this without concern. Without any weight at all. The way you'd say you 
 "There's always another shift," they say again. Like a refrain they don't know they're repeating.
 
 -> tuck_banter_hub
-
-= tuck_strange
-
-"You ever see anything strange in here? Like, anything that's not part of the show?"
-
-"Strange like what? It's a haunted house." Tuck laughs softly. "Everything's strange. That's the product."
-
-* "I mean the corridors. Have they ever seemed... different?"
-    A longer pause. "Sometimes. Like, I'll come back from the reset loop and my gap feels a few feet off from where I left it. Or a turn I don't remember will be there and then it won't." You hear Tuck shift their weight. "But it's dark. And you're tired. And you've been standing in a slit in the wall for four hours. Your brain does things."
-    -> tuck_banter_hub
-* "Never mind."
-    "Okay." Tuck doesn't push. The lull stretches. Somewhere down the corridor, a timer clicks and a strobe flashes once, uselessly, in the empty passage.
-    -> tuck_banter_hub
 
 = buried_mid_shift
 
