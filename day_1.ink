@@ -78,7 +78,7 @@ The doors are spaced irregularly. Some corridors have three in a row. Others hav
 
 = meet_bex
 
-{rested > 0} You notice the temperature dropping as you walk deeper. Not dramatically, just a degree or two, steady, like descending into something.
+You notice the temperature dropping as you walk deeper. Not dramatically, just a degree or two, steady, like descending into something.
 
 Dale rounds a corner and you nearly walk into someone.
 
@@ -192,6 +192,7 @@ Bex walks you back toward the office corridor.
     "It's my advice." Bex meets your eyes. "Take it or don't."
     -> sign_paperwork
 * "Thanks for the heads up."
+    ~ bex_relationship += 1
     Bex nods once. They turn to go, then stop.
     "Val? The hum. You hear it, right?"
     Before you can answer, they walk away.
@@ -265,24 +266,46 @@ His grip is firm. A beat too long.
 
 You step outside. Late afternoon. The desert sun is already dropping toward the mountains. You have a few hours before your shift.
 
-{gloria_day_1:
+{day_1_gloria:
     You think about the woman you saw in the diner this morning. It's still open. The sign reads ALDRICH'S.
 }
 
-* {gloria_day_1} [Go to the diner.]
+-> pre_night_1_hub
+
+= pre_night_1_hub
+
+* {day_1_gloria && not gloria_intro} [Go to the diner.]
     -> gloria_intro
-* [Go back to the motel and prepare.]
-    You walk back to the Mineshaft Inn. Room 6. You sit on the bed and go over what you've learned: the locked doors, the deep rooms, Bex's warning, the waiver. You write it all down in your notebook in the Order's shorthand.
-    {priority == "find_mara": You also note that you haven't found any trace of Mara yet. No one has mentioned a recent departure. It's like she was never here. Because according to them, she wasn't.}
+* {not pre_night_1_motel} [Go back to the motel and prepare.]
+    -> pre_night_1_motel
+* {not pre_night_1_silas} [Call Silas to report.]
+    -> pre_night_1_silas
+* [Head to your shift.]
     -> to_night_1
-* [Call Silas to report.]
-    ~ silas_trust += 1
-    You call from the burner. Silas picks up on the second ring.
-    "I'm in. Start tonight. The place is big, three levels, maybe more. Restricted areas everywhere. The NDA mentions 'disappearance' and 'metaphysical phenomena' in the liability waiver."
-    Silence on the line.
-    "Stay sharp. And stay on the upper levels for now."
-    {priority == "find_mara": "Any trace of Mara?" he asks. | "Focus on the layout first," he adds.} "Report after your shift."
-    -> to_night_1
+
+= pre_night_1_motel
+
+You walk back to the Mineshaft Inn. Room 6. You sit on the bed and go over what you've learned: the locked doors, the deep rooms, Bex's warning, the waiver. You write it all down in your notebook in the Order's shorthand.
+
+{priority == "find_mara": You also note that you haven't found any trace of Mara yet. No one has mentioned a recent departure. It's like she was never here. Because according to them, she wasn't.}
+
+-> pre_night_1_hub
+
+= pre_night_1_silas
+
+~ silas_trust += 1
+
+You call from the burner. Silas picks up on the second ring.
+
+"I'm in. Start tonight. The place is big, three levels, maybe more. Restricted areas everywhere. The NDA mentions 'disappearance' and 'metaphysical phenomena' in the liability waiver."
+
+Silence on the line.
+
+"Stay sharp. And stay on the upper levels for now."
+
+{priority == "find_mara": "Any trace of Mara?" he asks. | "Focus on the layout first," he adds.} "Report after your shift."
+
+-> pre_night_1_hub
 
 = gloria_intro
 
@@ -368,9 +391,9 @@ Gloria stands, suddenly brisk. The openness closes.
 
 She's done talking. For now. But you can feel it. She has more. She's been waiting to tell someone. She just needs to know you're worth telling.
 
-* [Eat and head to your shift.]
+* [Eat and head back.]
     The meatloaf is, in fact, decent.
-    -> to_night_1
+    -> pre_night_1_hub
 
 = to_night_1
 

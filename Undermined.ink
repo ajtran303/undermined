@@ -2,19 +2,26 @@ INCLUDE night_0.ink
 INCLUDE day_1.ink
 INCLUDE night_1.ink
 INCLUDE day_2.ink
+INCLUDE night_2.ink
 
 
-
-
-VAR priority = ""
-VAR rested = 0
-VAR gloria_day_1 = false
-VAR silas_trust = 1
+VAR bex_relationship = 0
 VAR dale_suspicion = 0
-VAR gloria_trust = 0
+VAR employee_records_seen = false
 VAR erasure_level = 0
+VAR day_1_gloria = false
+VAR gloria_trust = 0
+VAR has_bex_file = false
+VAR has_census_data = false
+VAR has_dale_file = false
+VAR has_gloria_testimony = false
+VAR has_horrorco_filing = false
+VAR has_notebook_page = false
+VAR has_sinkhole_history = false
 VAR mara_clues = 0
-VAR day_2_gloria_visited = false
 VAR night_1_employee_records_checked = false
+VAR priority = ""
+VAR silas_trust = 1
+
 
 -> night_0

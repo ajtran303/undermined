@@ -199,16 +199,14 @@ Orientation is at 2 PM.
 You have six hours.
 
 * [Try to sleep.]
-    ~ rested += 1
     You manage a few hours of shallow, restless sleep. You dream about a mine shaft that goes down forever. You wake up feeling slightly more alert.
 -> end_night_0
 * [You're not going to sleep. Explore the town.]
-    ~ gloria_day_1 = true
+    ~ day_1_gloria = true
     You walk along the main road as the sun comes up. Everything is closed. The town feels like a movie set. Facades with nothing behind them. You notice the diner opens at 7. An older adult woman behind the window turns on lights. You don't go in yet, but you've clocked her.
 -> end_night_0
 * [Call Silas and confirm you've arrived.]
     ~ silas_trust += 1
-    ~ rested += 1 
     You call Silas. He picks up on one ring.
     "You're there? Good. Get some rest. Report in after your first shift. And be careful."
 -> end_night_0

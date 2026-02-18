@@ -231,6 +231,7 @@ You wait for them to move, to do something, to walk a group through. But there a
 The figure stands there. Ten seconds. Twenty.
 
 * [Radio Bex.]
+    ~ bex_relationship += 1
     You key the radio to the zone channel. "Bex. There's someone in my corridor. Far end, just standing there. Is that one of ours?"
     Two seconds of silence.
     "I don't see anyone."
@@ -343,6 +344,7 @@ Bex appears next to you. They look the same as they did at 6 PM. Not tired. Not 
     "Switch to your left hand for the window after midnight. Alternate the strain. You'll last longer."
     -> post_shift_walk
 * "I saw something."
+    ~ bex_relationship += 1
     Bex's expression doesn't change. "Yeah."
     They don't ask what.
     -> post_shift_walk
@@ -367,8 +369,7 @@ The break room is empty.
 * [Now's your chance. Access the staff terminal.]
     -> employee_records
 * [You're exhausted. Go back to the motel and regroup.]
-    {rested == 0: You can barely keep your eyes open. You'll investigate tomorrow.}
-    {rested > 0: You're tired, but you could push through. No. Patience. There will be other nights.}
+    You can barely keep your eyes open. You'll investigate tomorrow.
     -> end_night_1
 
 = employee_records
@@ -386,9 +387,7 @@ Elena Voss. No results.
 You try a broader search. All employees hired in the past two months. A list comes up: twelve names. You recognize a few from tonight's briefing. Your name is there. Val Rowan, hired today.
 
 No Mara. No Elena. No gap in the records where someone was removed. It's not that her file was deleted. It's like the system never knew she existed.
-
-~ night_1_employee_records_checked = true
-
+~ employee_records_seen = true
 -> records_hub
 
 = records_hub
@@ -406,7 +405,6 @@ The terminal is still open. The building is still quiet. For now.
 * {records_messages || records_files || records_bex || records_dale} [You've seen enough. Close out and leave.]
     You clear the search history, close the programs, and step away from the terminal.
     -> records_exit
-
 
 = records_messages
 
@@ -430,6 +428,8 @@ No system that manages real humans looks like this.
 
 = records_bex
 
+~ has_bex_file = true
+
 You search for Bex. A single result: Bex. No last name. No hire date. The field is blank. Position: Rotating. Emergency contact: blank. Address: blank.
 
 Every other employee has full records. Bex has a name and nothing else.
@@ -437,16 +437,25 @@ Every other employee has full records. Bex has a name and nothing else.
 -> records_hub
 
 = records_dale
+
+~ has_dale_file = true
+
 You search for Dale Ruskin. His file is immaculate.
+
 Full name: Dale Arthur Ruskin. Position: General Manager. Hire date: March 3rd, 1998. The day The Hollows opened. Address: on-site staff housing. Emergency contact: HorrorCo Entertainment LLC, Corporate Office. No individual name. Salary: $187,000.
+
 It's a lot of money for managing a haunted attraction in a town with one gas station.
+
 You scroll down. Performance reviews. There are twenty-seven of them, one per year, going all the way back to 1998.
+
 You open the most recent. "Exceeds expectations. Dale continues to demonstrate exemplary leadership and operational excellence."
+
 You open one from 2015. "Exceeds expectations. Dale continues to demonstrate exemplary leadership and operational excellence."
 
 Same. 2001. Same. 1999. Same. Word for word. Character for character.
 
 You check his attendance record. No sick days. No vacation days. Not a single one. In twenty-seven years.
+
 Either Dale Ruskin is the most dedicated employee in American history, or this file was written by something that doesn't understand what a real employment record looks like.
 
 -> records_hub
@@ -454,6 +463,7 @@ Either Dale Ruskin is the most dedicated employee in American history, or this f
 = records_exit
 
 ~ dale_suspicion += 1
+
 You hear a sound from the corridor. Footsteps. Slow.
 
 The break room door opens.

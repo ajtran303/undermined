@@ -23,6 +23,8 @@ The owner is behind the counter. Same guy who checked you in. He looks up.
 
 = erasure_motel
 
+~ erasure_level += 1
+
 He flips through the clipboard. Runs his finger down the page.
 
 "I don't have anyone in room 6. You sure you're at the right place?" He chuckles. "Not a lot of options in town, but maybe you're thinking of somewhere down the highway."
@@ -61,13 +63,13 @@ You have until 6 PM before your shift. Time to dig.
 
 = day_2_hub
 
-* {not day_2_gloria_visited} [Go to Gloria's diner.]
+* {not day_2_gloria} [Go to Gloria's diner.]
     -> day_2_gloria
 * {not day_2_library} [Look for a library or municipal office.]
     -> day_2_library
 * {not day_2_silas} [Call Silas.]
     -> day_2_silas
-* {day_2_gloria_visited || day_2_library || day_2_silas} [Head to The Hollows for your shift.]
+* {day_2_gloria || day_2_library || day_2_silas} [Head to The Hollows for your shift.]
     -> day_2_end
 
 = day_2_silas
@@ -80,7 +82,7 @@ You dial the burner. It rings four times. That's new. He used to pick up in one 
 
 "It's me. I need to report."
 
-You tell him about Night 1. The figure in the corridor. The shifting layout. {night_1_employee_records_checked: The employee records with no trace of Mara.} The motel owner forgetting you this morning.
+You tell him about Night 1. The figure in the corridor. The shifting layout. {employee_records_seen: The employee records with no trace of Mara.} The motel owner forgetting you this morning.
 
 Silence on the line. Not thoughtful silence. Empty silence, like the signal is struggling.
 
@@ -112,7 +114,7 @@ The line goes dead. You're not sure if he hung up or if the call just stopped.
 
 = day_2_gloria
 
-{gloria_day_1:
+{day_1_gloria:
     Gloria is behind the counter when you walk in. She glances up and, for just a moment, you think you see the same blankness the motel owner had. Then it clears.
     "You again." She pours you a coffee without asking. "Sit down."
 - else:
@@ -146,7 +148,7 @@ The line goes dead. You're not sure if he hung up or if the call just stopped.
 
 = gloria_sinkhole
 
-{gloria_day_1:
+{day_1_gloria:
     "You told me yesterday your father owned the mine."
     Gloria wraps her hands around her mug. "I did."
     "You said a sinkhole doesn't breathe."
@@ -179,6 +181,7 @@ She looks at her hands.
 "No bodies. No bones. No blood. Nothing. Forty-eight men, gone. Like they'd been erased."
 
 ~ gloria_trust += 1
+~ has_gloria_testimony = true
 
 -> gloria_day_2_hub
 
@@ -266,7 +269,7 @@ Gloria clears your coffee cup.
 * {gloria_trust >= 3} "I will."
     -> day_2_hub
 * [Eat and leave.]
-    The meatloaf is{gloria_day_1: still} decent.
+    The meatloaf is{day_1_gloria: still} decent.
     -> day_2_hub
 
 = day_2_library
@@ -292,6 +295,8 @@ The local history section is half a shelf. But it's enough.
 
 = library_sinkhole
 
+~ has_sinkhole_history = true
+
 You find a bound collection of the Veinrock Gazette, which apparently ran from 1924 to 1974. The final year has only three issues.
 
 The sinkhole is front page of the June 15, 1973 edition. ALDRICH MINE COLLAPSE KILLS 48. The article describes the event in dry, factual language. Geological instability. Emergency crews dispatched. No survivors recovered.
@@ -312,6 +317,8 @@ The mine got deeper when it collapsed.
 
 = library_horrorco
 
+~ has_horrorco_filing = true
+
 The municipal records are in a filing cabinet by the desk. The clerk doesn't seem to care that you're going through them.
 
 You find the property transfer. HorrorCo Entertainment LLC purchased the Aldrich Mine property and surrounding 200 acres from Nye County on February 12, 1998. Purchase price: $1.2 million, paid in full.
@@ -325,7 +332,7 @@ One week after the sinkhole.
 HorrorCo was created seven days after forty-eight men vanished into the earth. Then it waited twenty-five years to come back and build on top of the hole.
 
 * [Look for any names on the incorporation documents.]
-    The incorporator is listed as "M. Aldrich, Registered Agent." Aldrich, like the mine. {day_2_gloria_visited || gloria_day_1: Like Gloria's family. But Gloria said her family left town after the collapse. Who is M. Aldrich?} {not day_2_gloria_visited && not gloria_day_1: The same name as the mine. A relative of the original owners? Someone else entirely?}
+    The incorporator is listed as "M. Aldrich, Registered Agent." Aldrich, like the mine. {day_2_gloria || day_1_gloria: Like Gloria's family. But Gloria said her family left town after the collapse. Who is M. Aldrich?} {not day_2_gloria && not day_1_gloria: The same name as the mine. A relative of the original owners? Someone else entirely?}
     ~ mara_clues += 1
     -> library_hub
 * [Note the dates and move on.]
@@ -333,6 +340,8 @@ HorrorCo was created seven days after forty-eight men vanished into the earth. T
     -> library_hub
 
 = library_census
+
+~ has_census_data = true
 
 You find a shelf of county directories going back to the 1960s. You pull a few.
 
@@ -383,9 +392,9 @@ You pass them on the way to the staff entrance. One of them, a kid maybe ten yea
 
 * "Not yet."
     The kid grins. His mother pulls him back into line.
-    -> DONE
+    -> night_2
 * "Only at night."
     The kid's grin falters for a second, then comes back wider.
-    -> DONE
+    -> night_2
 * [Just smile and keep walking.]
-    -> DONE
+    -> night_2
