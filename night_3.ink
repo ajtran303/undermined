@@ -600,4 +600,4 @@ Room 6. The room accepted your existence today. Your bag is where you left it af
 You set your alarm for noon.
 
 * [Day 4]
-    -> DONE
+    -> day_4

@@ -5,6 +5,8 @@ INCLUDE day_2.ink
 INCLUDE night_2.ink
 INCLUDE day_3.ink
 INCLUDE night_3.ink
+INCLUDE day_4.ink
+
 
 
 
@@ -18,11 +20,13 @@ VAR gloria_trust = 0
 VAR has_bex_file = false
 VAR has_census_data = false
 VAR has_dale_file = false
+VAR has_escape_route = false
 VAR has_gloria_testimony = false
 VAR has_horrorco_filing = false
 VAR has_mara_recording = false
 VAR has_notebook_page = false
 VAR has_portal_mechanics = false
+VAR has_ritual_knowledge = false
 VAR has_sinkhole_history = false
 VAR library_clerk_check = false
 VAR mara_clues = 0
