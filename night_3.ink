@@ -286,7 +286,7 @@ Silence.
 
 The building sits against the mountain, a dark mass of concrete and stone. You can hear the muffled bass of the attraction's audio through the walls. Somewhere inside, thirty actors are scaring the last few dozen guests of the night. You're out here watching an empty parking lot.
 
-{dale_suspicion >= 6: Dale didn't pull you for staffing reasons. He pulled you because you're asking questions.{night_1_employee_records_checked: Because you stayed late at the terminal.}{library_clerk_check: Because the library clerk reported back.} Because you pushed. This is the parking lot version of a corner office with no phone.}
+{dale_suspicion >= 6: Dale didn't pull you for staffing reasons. He pulled you because you're asking questions.{employee_records_seen: Because you stayed late at the terminal.}{library_clerk_check: Because the library clerk reported back.} Because you pushed. This is the parking lot version of a corner office with no phone.}
 
 You walk the perimeter. Slowly. Observing.
 

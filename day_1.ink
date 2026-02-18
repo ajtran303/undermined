@@ -128,7 +128,7 @@ Bex watches him go. They wait until the sound disappears completely.
 
 Bex hops off the crate and starts walking. Their pace is slower than Dale's, more deliberate. They point things out as you go.
 
-"Break room's down that hall. Fridge, microwave, lockers. Lock your stuff. Things go missing sometimes." 
+"Break room's down that hall. Fridge, microwave, lockers. Lock your stuff. Things go missing sometimes."
 
 "Costume room is past the break room. You'll get fitted before your first shift tonight. Mostly something to go over your black clothes, face paint, maybe a mask depending on your zone."
 

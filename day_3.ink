@@ -320,7 +320,7 @@ He stops walking. Turns to face you. The smile is still there, but his eyes are 
 
 "I like you, Val. You're a good worker. Bex says you've got instincts." He leans forward, just slightly. "But I need my people focused on the job. Not on... other things. The history, the tunnels, the filing cabinets." He says this last one casually, but it lands.
 
-{night_1_employee_records_checked: He knows you were on the terminal. He knows what you looked for.}
+{employee_records_seen: He knows you were on the terminal. He knows what you looked for.}
 
 "This is a haunted attraction. It's a business. And businesses work best when everyone stays in their lane." He claps you on the shoulder. "You understand, right?"
 

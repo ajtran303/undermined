@@ -2,7 +2,7 @@
 
 = the_call
 
-Tuesday. 11:47 PM. 
+Tuesday. 11:47 PM.
 
 The phone echoes through your apartment.
 
@@ -78,7 +78,7 @@ The facts settle in the air.
     -> headquarters_wait
 
 = headquarters_cover_name
-"She did. I assigned one to her, 'Elena Voss." No record of that name."
+"She did. I assigned one to her, 'Elena Voss'." No record of that name."
 -> headquarters_answers
     
 = headquarters_record
@@ -104,7 +104,7 @@ His finger thuds on the map.
 
 "In 1998, a company called HorrorCo Entertainment purchased the mine and the surrounding property. Built a haunted attraction inside of the tunnels. Named it The Hollows. And they've been operating year-round ever since."
 
-->the_assignment_questions
+-> the_assignment_questions
 
 = the_assignment_questions
 * {not the_year_round} "Year round?["] That's unusual for a haunt."
@@ -116,17 +116,17 @@ His finger thuds on the map.
 * [Nod.]
 -> the_ask
 
-=the_year_round
+= the_year_round
 "Yes. Most haunted attractions are seasonal. Halloween. Maybe a few weekends in the fall. The Hollows runs every single night. And it's not lacking for business. Visitors come from across the country. There's a waitlist."
-->the_assignment_questions
+-> the_assignment_questions
 
-=the_horrorco
+= the_horrorco
 "Almost nothing. They're incorporated in Delaware. Shell company structure. No public-facing leadership. No press interviews. No social media presence except for marketing. For a company running the most popular haunted attraction in the country, they are remarkably invisible."
-->the_assignment_questions
+-> the_assignment_questions
 
-=the_flagged
+= the_flagged
 "Disappearances. Over the past three years, at least eight people connected to The Hollows have vanished. Guests, employees, a local contractor. Local police investigated and found nothing. All cold cases, closed. The pattern caught our attention."
-->the_assignment_questions
+-> the_assignment_questions
 
 = the_ask
 
@@ -178,7 +178,7 @@ Veinrock.
 
 -> veinrock
 
-=veinrock
+= veinrock
 
 A cluster of low buildings along a single main road. A gas station. A motel called THE MINESHAFT INN with a half-lit neon sign. A diner. A gift shop. The town is smaller than you expected.
 

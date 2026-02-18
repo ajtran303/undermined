@@ -30,12 +30,12 @@ VAR has_ritual_knowledge = false
 VAR has_sinkhole_history = false
 VAR library_clerk_check = false
 VAR mara_clues = 0
-VAR night_1_employee_records_checked = false
 VAR post_shift_2_tell_bex = false
 VAR post_shift_2_keep_quiet = false
 VAR priority = ""
 VAR silas_trust = 1
 VAR visited_restricted_passage = false
+VAR day_4_visits = 0
 
 
 -> night_0

@@ -219,8 +219,6 @@ They turn and walk toward the mine. They don't look back. In the sun, their outl
 
 = day_4_hub
 
-VAR day_4_visits = 0
-
 The sun is high. You have hours before your shift. Not many.
 
 {day_4_visits < 2:
