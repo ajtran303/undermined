@@ -517,7 +517,7 @@ Tuck laughs. Easy, unbothered. Same person who said "I guess I haven't thought a
     "Dale pulled you outside?"
     Their voice is flat. But their eyes say something else.
     * "Yeah. Perimeter duty."
-        Bex nods slowly. "He did that to someone else. A while ago." They pause. "I can't remember their name."
+        Bex nods slowly. "He did that to someone else. A while ago." They pause. "Dark hair. She had dark hair. And she..." Bex closes their eyes. Opens them. "I can't remember her name. I should remember her name."
         -> post_shift_3_bex
     * "Is that bad?"
         "It's not good." Bex sits down. "It means he's decided something about you."

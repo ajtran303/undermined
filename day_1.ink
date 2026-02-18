@@ -162,8 +162,8 @@ Bex walks you through three zones: THE SHAFT, THE COLLAPSE, and THE BURIED.
 "HorrorCo has a theme." Bex runs a hand along the tunnel wall. Real stone, not plywood. "Mining disaster. Cave-ins. Being trapped underground. Guests love it."
 
 * "Do you know the history?["] The actual mine?"
-    Bex stops walking. "The Aldrich Mine. 1973. Sinkhole took the whole main shaft. Killed..." They pause, eyes unfocused. "A lot of people."
-    The way they say it. Not like they read about it. Like they're trying to remember the number and can't.
+    Bex stops walking. "The Aldrich Mine. 1973. Sinkhole took the whole main shaft. Killed..." They pause. Their mouth opens and closes. "Forty..." They frown. "A lot of people."
+    Their hand goes to the wall. Touches the stone. As if the number might be in there somewhere.
     -> end_of_tour
 * "Have you ever seen anything actually... strange in here?"
     Bex's pace doesn't change. "Define strange. I work in a haunted house. Everything's strange. That's the product."

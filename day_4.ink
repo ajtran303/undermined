@@ -91,7 +91,13 @@ You step aside. They walk into the motel room. They move carefully, looking at t
 
 "For how long?"
 
-"Since the beginning." They pause. "I think. I've lost some of the years. They blur. But the work hasn't stopped. Every night. Every night for..." They trail off. Their hands are trembling slightly. "I'm not enough anymore. The opening glyphs are winning. There are more of them every month and fewer of me. I can feel myself..." They look at their hands. Turn them over. "Like a recording played too many times. The signal's still there but it's mostly noise now."
+"Since the beginning." They pause. "I think. I've lost some of the years. They blur. But the work hasn't stopped. Every night. Every night for..." They trail off. Their hands are trembling slightly.
+
+"I had a..." They stop. Look at the motel room wall. The cheap print of a desert landscape. "I had a name. A real one. Not Bex. I had a place I was going back to. I think there was a..." Their voice catches. Not on emotion. On absence. The sentence has a hole in it where the next word should be and Bex is standing at the edge of it looking down.
+
+They look at their hands. Turn them over. The way you check your pockets for something you know you had a moment ago.
+
+"I'm not enough anymore. The opening glyphs are winning. There are more of them every month and fewer of me. The signal's still there but it's mostly noise now."
 
 * "What happens if the containment fails?"
     "It opens. All the way. Everything on this side gets pulled through. Not just people. Memory. History. The town. The mine. Everything that was ever here." Their voice doesn't waver. "It's been getting closer for years. Tonight might be the night."

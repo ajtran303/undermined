@@ -422,6 +422,8 @@ Bex is at their station, removing their own makeup. They don't look at you.
     Bex's hand stops mid-wipe. They don't look at you. A long silence.
     "What did you find?"
     "Symbols carved into the wall. A page from a notebook. A door."
+    Bex's hand drops to the counter. They stare at the wall of the break room. Not at you.
+    "The concentric ones." Not a question. "I used to know what they..." They stop. Start again. "There was a reason I..." They stop again. Their jaw works. Something behind their eyes reaching for a shelf that isn't there anymore.
     "Did you open the door?"
     "It was locked."
     Bex exhales. You're not sure if it's relief.

@@ -264,13 +264,17 @@ At a junction, the last junction, where the tunnel opens into a wider chamber an
 
 "I can't." Their voice is a whisper. Not because they're whispering. Because there's not enough of them left to speak at full volume. "This is as far as I go."
 
-You look at them. In the amber light pulsing from below, Bex is barely there. A shape. A suggestion. The outline of a person who has been worn thin by proximity to the thing they've spent decades fighting.
+You look at them. In the amber light pulsing from below, Bex is barely there. A shape. A suggestion.
 
 "Left at the fork. Down the spiral steps. You'll feel it before you see it."
 
 A pause. The pulsing light. The hum.
 
-"Val." Almost inaudible now. "Whatever you decide to do down there. It was good. Having someone to talk to."
+"Val. When you get to the bottom, you need to..." The word isn't there. You can see them searching for it. Their mouth forms the shape of something and nothing comes out. They try again. "The pattern starts at the..." Gone. The knowledge they carried for decades, the one thing they stayed for, dissolving at the threshold of the thing that's been dissolving them.
+
+Their hand reaches toward you. Whether to touch you or to hold onto something solid, you can't tell. The hand is barely visible.
+
+"Val." Almost inaudible. "It was good. Having someone to talk to."
 
 * "I'll come back."
     The shape that might be Bex doesn't respond. You don't know if they heard you. You don't know if there's enough of them left to hear.
