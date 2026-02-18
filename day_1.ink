@@ -298,10 +298,12 @@ It's not a question.
 
 * "That obvious?"
     "It's a small town. And people don't come here unless they're visiting The Hollows or working there." She studies you. "You don't look like a tourist."
+    "My name is Val."
     -> gloria_chat
 * "I just started at The Hollows."
     Something crosses her face. Fast, then gone. She tops off a coffee cup that's already full.
     "Another one."
+    "My name is Val."
     -> gloria_chat
 * "I'm Val."
     "Gloria." She doesn't offer a handshake. "You working up at the mine?"

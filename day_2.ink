@@ -124,6 +124,7 @@ The line goes dead. You're not sure if he hung up or if the call just stopped.
     * "I just started at The Hollows."
         Something crosses her face. Fast, then gone.
         "Another one."
+        "My name is Val."
         -> gloria_day_2_hub
     * "I'm Val."
         "Gloria." She doesn't offer a handshake. "You working up at the mine?"
@@ -265,7 +266,7 @@ Gloria clears your coffee cup.
 * {gloria_trust >= 3} "I will."
     -> day_2_hub
 * [Eat and leave.]
-    The meatloaf is still decent.
+    The meatloaf is{gloria_day_1: still} decent.
     -> day_2_hub
 
 = day_2_library
