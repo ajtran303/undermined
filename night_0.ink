@@ -70,22 +70,22 @@ The facts settle in the air.
 
 = headquarters_answers
 
-* {not the_cover_name} "Could she have used a cover name?"
-    -> the_cover_name
-* {not the_record} "That's not possible.["] There has to be a record."
-    -> the_record
-* {not the_wait} [Continue] You wait.
-    -> the_wait
+* {not headquarters_cover_name} "Could she have used a cover name?"
+    -> headquarters_cover_name
+* {not headquarters_record} "That's not possible.["] There has to be a record."
+    -> headquarters_record
+* {not headquarters_wait} [Continue] You wait.
+    -> headquarters_wait
 
-= the_cover_name
+= headquarters_cover_name
 "She did. I assigned one to her, 'Elena Voss." No record of that name."
-    -> headquarters_answers
+-> headquarters_answers
     
-= the_record
+= headquarters_record
 "That's what I thought. But I assigned our digital forensics team to look remotely at the employee databases. No payroll records. We checked the security footage but the cameras recycle every 2 days. Convenient."
-    -> headquarters_answers
+-> headquarters_answers
 
-= the_wait
+= headquarters_wait
 Silas is unusually quiet. He always has an answer, even if it's "insufficient data."
 
 - "I think something there is capable of making people disappear. But I don't know how."
@@ -114,7 +114,7 @@ His finger thuds on the map.
 * {not the_flagged} "Why did the Order flag this location?"
     -> the_flagged
 * [Continue]
-    -> the_ask
+-> the_ask
 
 =the_year_round
 "Yes. Most haunted attractions are seasonal. Halloween. Maybe a few weekends in the fall. The Hollows runs every single night. And it's not lacking for business. Visitors come from across the country. There's a waitlist."
@@ -156,8 +156,7 @@ He organizes the files back into the folder. His gaze rises to meet you directly
     
 = before_the_drive
 * ["I understand."]
-
--> the_drive
+    -> the_drive
     
 = the_drive
 
@@ -202,17 +201,17 @@ You have six hours.
 * [Try to sleep.]
     ~ rested += 1
     You manage a few hours of shallow, restless sleep. You dream about a mine shaft that goes down forever. You wake up feeling slightly more alert.
-    -> end_night_0
+-> end_night_0
 * [You're not going to sleep. Explore the town.]
     ~ gloria_day_1 = true
     You walk along the main road as the sun comes up. Everything is closed. The town feels like a movie set. Facades with nothing behind them. You notice the diner opens at 7. An older adult woman behind the window turns on lights. You don't go in yet, but you've clocked her.
-    -> end_night_0
+-> end_night_0
 * [Call Silas and confirm you've arrived.]
     ~ silas_trust += 1
     ~ rested += 1 
     You call Silas. He picks up on one ring.
     "You're there? Good. Get some rest. Report in after your first shift. And be careful."
-    -> end_night_0
+-> end_night_0
 
 = end_night_0
 
@@ -230,5 +229,5 @@ The air changes immediately. Cooler. Damp. And underneath everything, that hum.
 
 You're inside.
 
-* [Continue]
+* [Continue.]
     -> day_1
