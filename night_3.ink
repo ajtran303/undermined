@@ -4,7 +4,7 @@
 
 The costume room is quieter tonight. Fewer actors. The energy is different: loose, unhurried. Someone checks their phone openly. The woman with the ribcage piece isn't here.
 
-"Wednesday," the guy at the next station says to nobody in particular. "Wednesdays are dead."
+"Tuesday," the guy at the next station says to nobody in particular. "Tuesdays are dead."
 
 Bex is at their station.
 
@@ -518,6 +518,8 @@ Tuck laughs. Easy, unbothered. Same person who said "I guess I haven't thought a
     Their voice is flat. But their eyes say something else.
     * "Yeah. Perimeter duty."
         Bex nods slowly. "He did that to someone else. A while ago." They pause. "Dark hair. She had dark hair. And she..." Bex closes their eyes. Opens them. "I can't remember her name. I should remember her name."
+        {mara_clues >= 2: Dark hair. Sharp eyes. The woman Gloria described, the one who sat at the counter and ordered black coffee and meatloaf. Mara. Bex is describing Mara, and the name is dissolving out of them even as they reach for it.}
+        {mara_clues == 1: Dark hair. The description catches on something. Someone else who worked here. Someone else who asked questions.}
         -> post_shift_3_bex
     * "Is that bad?"
         "It's not good." Bex sits down. "It means he's decided something about you."

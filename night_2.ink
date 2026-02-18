@@ -391,13 +391,13 @@ A group enters the corridor. You step out. You follow.
 
 The last stretch of the shift is mechanical. You do the walk. You match the pace. You freeze. They scream. You reset.
 
-{restricted_passage: But your mind is in the tunnel behind the grate. The symbols on the wall. The diagram. The door. The warmth.}
+{visited_restricted_passage: But your mind is in the tunnel behind the grate. The symbols on the wall. The diagram. The door. The warmth.}
 
-{restricted_passage: Mara was down there. She found the symbols. She was documenting them, analyzing them, trying to determine if they were functional. She was doing exactly what you would have done.}
+{visited_restricted_passage: Mara was down there. She found the symbols. She was documenting them, analyzing them, trying to determine if they were functional. She was doing exactly what you would have done.}
 
-{restricted_passage: And then she was gone.}
+{visited_restricted_passage: And then she was gone.}
 
-{not restricted_passage: But your mind keeps drifting to the grate in alcove three. The warm air. The hum. Whatever is behind that wall, it's close. You can feel it.}
+{not visited_restricted_passage: But your mind keeps drifting to the grate in alcove three. The warm air. The hum. Whatever is behind that wall, it's close. You can feel it.}
 
 The show ends at 2 AM. House lights up. Fog off. Silence.
 
@@ -411,11 +411,11 @@ You change out of costume. Scrub the greasepaint off. Your face is raw.
 
 Bex is at their station, removing their own makeup. They don't look at you.
 
-{restricted_passage:
+{visited_restricted_passage:
     You want to tell Bex what you found. The symbols. The diagram. The door. But something stops you. Bex told you not to go through the grate. If they know you did, what happens?
 }
 
-* {restricted_passage} [Tell Bex what you found.]
+* {visited_restricted_passage} [Tell Bex what you found.]
     ~ post_shift_2_tell_bex = true
     ~ bex_relationship += 1
     You sit down next to them. "I went through the grate."

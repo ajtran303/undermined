@@ -212,8 +212,8 @@ You walk past him. He doesn't turn to watch you go.
 
 ~ day_5_gloria_done = true
 
-{gloria_trust > 5: -> gloria_high}
-{gloria_trust >= 3 && gloria_trust <= 5: -> gloria_mid}
+{gloria_trust >= 5: -> gloria_high}
+{gloria_trust >= 3 && gloria_trust < 5: -> gloria_mid}
 {gloria_trust < 3: -> gloria_low}
 
 = gloria_high
@@ -236,11 +236,25 @@ You sit.
 
 You eat. Gloria watches you eat. The diner is quiet. The morning light comes through the window and catches the dust.
 
-* "Thank you, Gloria."
-    "Don't thank me yet." She takes your plate. "Thank me when you come back."
+Then she reaches up and unclasps something from around her neck. A chain. On it, a small metal disc, tarnished dark, the size of a half-dollar. She holds it for a moment, rubbing her thumb across the surface the way you rub a worry stone. Then she puts it in your hand.
+
+"My father wore this in the mine. Every shift. For thirty years. He said it was the only thing down there that felt like it was on his side."
+
+The disc is heavy for its size. On one face, a symbol: concentric arcs intersected by angular lines, etched deep into the metal. Not decorative. Functional. The kind of mark someone makes when they want it to last.
+
+{has_notebook_page: You recognize the symbol. Mara's diagram. The carvings on the tunnel walls. The same pattern, reduced to its smallest element, cast in metal by an engineer who found it in the deep tunnels and understood what it meant. He wore it every day. A portable containment ward.}
+
+{not has_notebook_page: You've seen this before. Last night, in the tunnels, scratched into the walls. The same language. The same shapes. But those were carved into stone that cracks and wears. This is cast in metal. Permanent. A containment fragment you can carry in your pocket. {~ has_notebook_page = true} }
+
+"He wasn't superstitious. He was an engineer. But he said the deep tunnels felt different when he wore it. Quieter." Gloria's voice is steady. Her hands are not. "I don't know if it does anything. But it's the only thing I have left of him that isn't paper. And I want you to have it."
+
+~ has_gloria_medallion = true
+
+* "I'll bring it back."
+    "You'd better." The corner of her mouth twitches. Almost a smile. "That and yourself."
     -> day_5_hub
-* [Finish eating.]
-    Gloria takes your plate. Wipes the counter. Doesn't say anything else. She doesn't need to.
+* [Close your hand around the disc. Pocket it.]
+    Gloria takes your plate. Wipes the counter. She doesn't say anything else. She doesn't need to.
     -> day_5_hub
 
 = gloria_mid
@@ -265,10 +279,16 @@ You sit. She doesn't pour coffee. She looks at you the way she's been looking at
 
 ~ ate_meatloaf = true
 
+// gloria_trust was incremented above. Check post-increment value.
+// Entered at 4 -> now 5: unlock truck + recorder
+// Entered at 3 -> now 4: photograph
+// Entered at 2 -> routed to gloria_low, never reaches here
+
 {gloria_trust == 5: -> gloria_mid_unlock}
 
-{gloria_trust == 3 || gloria_trust == 4: -> gloria_medallion_unlock}
+{gloria_trust == 4: -> gloria_photograph}
 
+// Fallthrough: gloria_trust == 3 (entered at 2... shouldn't happen due to routing, but safety net)
 Gloria watches you eat. Her hands are wrapped around her own mug. Her knuckles are white.
 
 "Be careful tonight." She says it the way people say things they know are inadequate. "Please."
@@ -317,21 +337,34 @@ Gloria watches you pocket the keys.
     "Come back." She turns to the counter. "Just come back."
     -> day_5_hub
 
-= gloria_medallion_unlock
+= gloria_photograph
 
-Gloria reaches up and unclasps something from around her neck. A chain. On it, a small metal disc, tarnished dark, the size of a half-dollar. She holds it for a moment, rubbing her thumb across the surface the way you rub a worry stone. Then she puts it in your hand.
+Gloria watches you eat. She's deciding something. You can see it in the way her hands move: wiping the counter, adjusting a salt shaker, wiping the counter again. Busy hands, still mind.
 
-"My father wore this in the mine. Every shift. He said it was the only thing down there that felt like it was on his side."
+"Wait here."
 
-The disc is heavy for its size. On one face, a symbol: concentric arcs intersected by angular lines, etched deep into the metal. Not decorative. Functional. The kind of mark someone makes when they want it to last.
+She goes to the back. You hear a drawer open. Not the register drawer. Something deeper. A filing cabinet, or a box that hasn't been opened in a while. She comes back with a photograph.
 
-{has_notebook_page: You recognize the symbol. Mara's diagram. The carvings on the tunnel walls. The same pattern, reduced to its smallest element, cast in metal by an engineer who found it in the deep tunnels and didn't know what it meant. But he knew it mattered. He wore it every day.}
+Black and white. Creased down the middle where it's been folded and unfolded. A man in coveralls standing at the mine entrance, 1972 — the date is penciled on the back in neat handwriting. Martin Aldrich. He's squinting against the sun, one hand on the timber frame of the entrance. Behind him, the mouth of the mine is dark.
 
-{not has_notebook_page: You've seen this before. Last night, in the tunnels, scratched into the walls. The same language. The same shapes. But those were carved into stone that cracks and wears. This is cast in metal. Permanent. A containment fragment you can carry in your pocket. {~ has_notebook_page = true} }
+But in the rock face flanking the entrance, visible in the photograph the way a watermark is visible when you hold paper to the light: carvings. Lines cut into the stone. Not decoration. Not graffiti. Deliberate marks, angular and deep, running along both sides of the entrance like a frame.
 
-"He wasn't superstitious. He was an engineer. But he said the deep tunnels felt different when he wore it. Quieter." Gloria's voice is steady. Her hands are not. "I don't know what it is. I don't know if it does anything. But it's the only thing I have left of him that isn't paper."
+{has_notebook_page: You recognize them. The same symbols from Mara's diagram. The same marks you found in the tunnels. The containment carvings, visible in a photograph taken a year before the sinkhole. They were intact then. Unbroken. The full system, working.}
 
--> day_5_hub
+{not has_notebook_page: You've seen those marks. Last night, in the tunnels. Scratched into stone, deep underground. But here they are at the surface, framing the mine entrance, carved into the rock face a year before everything collapsed. A system. Intact. Whatever they were holding shut, they were holding it. {~ has_notebook_page = true} }
+
+"That's my father," Gloria says. "That's the mine before." Before the sinkhole. Before the forty-eight men. Before everything.
+
+She doesn't take the photograph back.
+
+"I don't know what those marks are. He never talked about them. But they were important to him. He checked them every morning before his shift. Walked the entrance and ran his hands along the stone." She pauses. "Like he was making sure they were still there."
+
+* "Can I keep this?"
+    "Take it." She turns back to the counter. "I've been staring at it for thirty years. I still don't know what I'm looking at. Maybe you do."
+    -> day_5_hub
+* "Thank you, Gloria."
+    She nods. Doesn't look at you. "Be careful tonight."
+    -> day_5_hub
 
 = gloria_low
 
@@ -461,8 +494,6 @@ You know what you're looking for. You work fast.
 // Player has chosen to take Gloria's truck. Check evidence threshold.
 
 // Count evidence pieces (reset on each visit to handle re-entry)
-VAR daylight_evidence_count = 0
-VAR has_investigation_gated = false
 ~ daylight_evidence_count = 0
 ~ has_investigation_gated = false
 
@@ -471,8 +502,10 @@ VAR has_investigation_gated = false
 {has_mara_recording: {~ daylight_evidence_count += 1} }
 {has_dale_file: {~ daylight_evidence_count += 1} }
 {has_census_data: {~ daylight_evidence_count += 1} }
+{has_mara_pages: {~ daylight_evidence_count += 1} }
 {has_notebook_page: {~ has_investigation_gated = true} }
 {has_mara_recording: {~ has_investigation_gated = true} }
+{has_mara_pages: {~ has_investigation_gated = true} }
 
 {daylight_evidence_count >= 3 && has_investigation_gated: -> daylight_qualified}
 {daylight_evidence_count >= 3 && not has_investigation_gated: -> daylight_unqualified}
@@ -532,11 +565,11 @@ Late afternoon. The sun drops fast in the desert. One minute it's above the moun
 
 You walk to The Hollows.
 
-Five days. Five nights. {ate_meatloaf: Gloria's meatloaf sitting warm in your stomach, the last real meal. }{gloria_medallion_unlock: The medallion against your chest, heavy for its size. An engineer's copy of something older than the mine. }{has_escape_route: The truck keys in your pocket. The road out, if you need it.}
+Five days. Five nights. {ate_meatloaf: Gloria's meatloaf sitting warm in your stomach, the last real meal. }{has_gloria_medallion: The medallion against your chest, heavy for its size. An engineer's copy of something older than the mine. }{has_escape_route: The truck keys in your pocket. The road out, if you need it.}
 
 The hum shakes the ground. Not vibrates. Shakes. The gravel in the parking lot shifts under your feet. The building at the end of the road is dark against the sunset.
 
-The queue is the longest you've seen. Friday night. Full house. The biggest crowd of the week. Families. Couples. Groups of teenagers, loud, nervous. Hundreds of people about to walk into the mine and scream.
+The queue is the longest you've seen. Thursday night. Full house. The biggest crowd of the week. Families. Couples. Groups of teenagers, loud, nervous. Hundreds of people about to walk into the mine and scream.
 
 {has_mara_recording: Hundreds of people about to feed the portal. The biggest meal it's had all week. And tonight the system is at capacity. Mara's voice in your head: "The fear is not a byproduct. It's the product."}
 

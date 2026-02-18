@@ -6,13 +6,13 @@ The schedule board outside the costume room. Your name is there. Val Rowan. Zone
 
 Mid-level.
 
-You've never been assigned mid-level. Three nights in the uppers: The Collapse, The Shaft, The Buried. Entry-level zones. Tonight, for the first time, you're going deeper.
+You've never been assigned mid-level. {dale_suspicion >= 5: Two and a half nights in the upper zones before Dale moved you to the parking lot.}{dale_suspicion < 5: Three nights rotating through the upper zones.} Entry-level work. Tonight, for the first time, you're going deeper.
 
 {dale_suspicion >= 5: You read the assignment twice. Zone 8 is mid-level. More cameras. More floor managers. More eyes on you. Dale put you here because he wants you close. Where he can see you. A promotion that feels like a leash.}
 
 {dale_suspicion < 5: Mid-level is normal progression. Three nights in the uppers, you've proven you can handle the work. Zone 8. Closer to the deep rooms than you've ever been during a live show.}
 
-The costume room is full tonight. Thursday crowd means a full roster. Actors at every station, pulling on base layers, testing prosthetics, checking masks. The energy is different from the slow Wednesday you worked last night. Louder. More electric.
+The costume room is full tonight. The midweek crowd runs bigger than you'd expect. Actors at every station, pulling on base layers, testing prosthetics, checking masks. The energy is different from the slow night before. Louder. More electric.
 
 Bex is at their station.
 

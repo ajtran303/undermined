@@ -180,7 +180,7 @@ By 9:30, your throat is raw and your right shoulder aches from the window. You t
 
 = late_shift
 
-Bex is right. After 10, the gaps between groups shrink. You're hitting the window every thirty seconds, sometimes faster. The groups are louder, more energized. Weekend crowd. Some of them have been drinking. You can smell it through the fog.
+Bex is right. After 10, the gaps between groups shrink. You're hitting the window every thirty seconds, sometimes faster. The groups are louder, more energized. Late-night crowd. Some of them have been drinking. You can smell it through the fog.
 
 At 10:47 PM, something different.
 
