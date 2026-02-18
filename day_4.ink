@@ -579,7 +579,7 @@ Four days. Four nights. Your shoulders ache from the costumes. Your throat is ra
 
 The hum is louder today. Louder than it's ever been. You can feel it in the road, in the soles of your boots, traveling up through your bones. The building at the end of the road seems larger tonight. Darker. The mine entrance swallows light.
 
-The queue is building. Thursday night crowd, decent. Families. Couples. Groups of friends with the nervous laughter of people about to pay money to be frightened. They don't know what they're feeding.
+The queue is building. Decent crowd tonight. Families. Couples. Groups of friends with the nervous laughter of people about to pay money to be frightened. They don't know what they're feeding.
 
 {has_mara_recording: Mara knew. "The fear is not a byproduct. It's the product." Every scream tonight goes down. Into the mine. Into the portal.}
 

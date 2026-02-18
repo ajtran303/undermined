@@ -2,7 +2,7 @@
 
 = the_call
 
-Saturday. 11:47 PM.
+11:47 PM.
 
 The phone echoes through your apartment.
 

@@ -12,7 +12,7 @@ You've never been assigned mid-level. {dale_suspicion >= 5: Two and a half night
 
 {dale_suspicion < 5: Mid-level is normal progression. Three nights in the uppers, you've proven you can handle the work. Zone 8. Closer to the deep rooms than you've ever been during a live show.}
 
-The costume room is full tonight. The midweek crowd runs bigger than you'd expect. Actors at every station, pulling on base layers, testing prosthetics, checking masks. The energy is different from the slow night before. Louder. More electric.
+The costume room is full tonight. Busy night. Actors at every station, pulling on base layers, testing prosthetics, checking masks. The energy is different from the slow night before. Louder. More electric.
 
 Bex is at their station.
 

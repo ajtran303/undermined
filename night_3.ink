@@ -4,7 +4,7 @@
 
 The costume room is quieter tonight. Fewer actors. The energy is different: loose, unhurried. Someone checks their phone openly. The woman with the ribcage piece isn't here.
 
-"Tuesday," the guy at the next station says to nobody in particular. "Tuesdays are dead."
+"Slow night," the guy at the next station says to nobody in particular. "You can always tell by the parking lot."
 
 Bex is at their station.
 
@@ -24,7 +24,7 @@ Bex is at their station.
     "Standard for new hires. Three zones in three nights. He wants to see where you fit." Bex pauses. "Or where to put you."
     -> buried_briefing
 * "How's the crowd tonight?"
-    "Light. Wednesday. You'll get maybe twenty groups all night." Bex shrugs. "Slow nights are their own thing. More time in the dark."
+    "Light tonight. You'll get maybe twenty groups all night." Bex shrugs. "Slow nights are their own thing. More time in the dark."
     -> buried_briefing
 
 = buried_briefing
@@ -138,7 +138,7 @@ The actor in the next position over is bored. You can hear them shifting, tappin
 "Hey. New hire, right?"
 
 * "Yeah. Third night."
-    "Third night Wednesday. Lucky you." A quiet laugh. "I'm Tuck."
+    "Third night on a dead one. Lucky you." A quiet laugh. "I'm Tuck."
     -> tuck_banter_hub
 * "Val."
     "Tuck." A pause. "Slow one tonight. You holding up?"
@@ -238,7 +238,7 @@ Perimeter. Parking lot duty. Crowd control outside the building.
 
 "Take a radio. Direct traffic. Make sure nobody parks in the fire lanes."
 
-* "On a Wednesday?"
+* "On a slow night?"
     "Every night, full or slow. Insurance requirement." He holds your gaze. "You can handle it."
     -> perimeter_assignment
 * "Understood."

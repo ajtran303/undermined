@@ -405,7 +405,7 @@ The show ends at 2 AM. House lights up. Fog off. Silence.
 
 = post_shift_2
 
-The break room is quiet tonight. Fewer actors lingering. People are tired. The weekend rush takes a toll.
+The break room is quiet tonight. Fewer actors lingering. People are tired. Back-to-back busy nights take a toll.
 
 You change out of costume. Scrub the greasepaint off. Your face is raw.
 

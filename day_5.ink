@@ -165,7 +165,7 @@ The smile holds a beat too long. The muscles in his face engage and the expressi
 
 He looks at you. Not at you. At a point slightly behind you. Or slightly through you. His eyes don't quite focus on the space where your face is. They settle on something else, something behind your skull, and stay there.
 
-"Tonight's the big one. Friday night. Full house." The cadence is wrong. Too even. Every syllable the same length, the same weight. The performance of a man performing a man.
+"Tonight's the big one. Full house." The cadence is wrong. Too even. Every syllable the same length, the same weight. The performance of a man performing a man.
 
 "Make it real, people."
 
@@ -569,7 +569,7 @@ Five days. Five nights. {ate_meatloaf: Gloria's meatloaf sitting warm in your st
 
 The hum shakes the ground. Not vibrates. Shakes. The gravel in the parking lot shifts under your feet. The building at the end of the road is dark against the sunset.
 
-The queue is the longest you've seen. Thursday night. Full house. The biggest crowd of the week. Families. Couples. Groups of teenagers, loud, nervous. Hundreds of people about to walk into the mine and scream.
+The queue is the longest you've seen. Full house. The biggest crowd of the week. Families. Couples. Groups of teenagers, loud, nervous. Hundreds of people about to walk into the mine and scream.
 
 {has_mara_recording: Hundreds of people about to feed the portal. The biggest meal it's had all week. And tonight the system is at capacity. Mara's voice in your head: "The fear is not a byproduct. It's the product."}
 
