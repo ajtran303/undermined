@@ -193,6 +193,7 @@ Bex walks you back toward the office corridor.
     -> sign_paperwork
 * "Thanks for the heads up."
     ~ bex_relationship += 1
+    ~ bex_hum = true
     Bex nods once. They turn to go, then stop.
     "Val? The hum. You hear it, right?"
     Before you can answer, they walk away.

@@ -372,6 +372,7 @@ You put the records back where you found them. The clerk is still reading her ma
 
 At the door, you glance back. The clerk is watching you. She looks away quickly.
 
+~ library_clerk_check = true
 ~ dale_suspicion += 1
 
 Or maybe she was never looking. Maybe you imagined it.

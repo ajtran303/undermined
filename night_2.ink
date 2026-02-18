@@ -259,7 +259,7 @@ The grate is still there. You crouch and test the remaining bolt with your finge
     -> shaft_late
 * [Radio Bex about it.]
     ~ bex_relationship += 1
-    You switch to a private channel. "Bex. There's a maintenance access in alcove three of The Shaft. Grate's loose. Warm air coming through. The hum is stronger here."
+    You switch to a private channel. "Bex. There's a maintenance access in alcove three of The Shaft. Grate's loose. Warm air coming through.{bex_hum: The hum is stronger here.}"
     A long pause.
     "Don't go through it, Val."
     "Why?"
@@ -277,6 +277,8 @@ The grate is still there. You crouch and test the remaining bolt with your finge
     -> shaft_late
 
 = restricted_passage
+
+~ visited_restricted_passage = true
 
 The passage is narrow. Not a vent. An old maintenance tunnel, maybe an air shaft for the original mine. The walls are rough stone, unfinished, no concrete or plywood. Your shoulders brush both sides. You half-crawl, half-shuffle forward.
 
@@ -413,6 +415,7 @@ Bex is at their station, removing their own makeup. They don't look at you.
 }
 
 * {restricted_passage} [Tell Bex what you found.]
+    ~ post_shift_2_tell_bex = true
     ~ bex_relationship += 1
     You sit down next to them. "I went through the grate."
     Bex's hand stops mid-wipe. They don't look at you. A long silence.
@@ -425,6 +428,7 @@ Bex is at their station, removing their own makeup. They don't look at you.
     It's the first time they've said please about anything.
     -> end_night_2
 * {restricted_passage} [Keep it to yourself for now.]
+    ~ post_shift_2_keep_quiet = true
     ~ bex_relationship -= 1
     You don't mention the grate. You don't mention the tunnel. You sit and clean your makeup in silence.
     Bex glances at you once. Their eyes drop to your hands. You realize too late that your fingers are still orange-brown from the copper dust on the tunnel walls.

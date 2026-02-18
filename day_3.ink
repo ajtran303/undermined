@@ -347,4 +347,4 @@ A new zone. Deeper than The Collapse or The Shaft, but still upper level. You've
 
 {dale_suspicion >= 5: Dale moved you again. Two zone changes in three nights. Is he testing you or isolating you?}
 
--> DONE
+-> night_3

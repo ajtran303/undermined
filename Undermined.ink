@@ -4,9 +4,11 @@ INCLUDE night_1.ink
 INCLUDE day_2.ink
 INCLUDE night_2.ink
 INCLUDE day_3.ink
+INCLUDE night_3.ink
 
 
 
+VAR bex_hum = false
 VAR bex_relationship = 0
 VAR dale_suspicion = 0
 VAR employee_records_seen = false
@@ -20,11 +22,16 @@ VAR has_gloria_testimony = false
 VAR has_horrorco_filing = false
 VAR has_mara_recording = false
 VAR has_notebook_page = false
+VAR has_portal_mechanics = false
 VAR has_sinkhole_history = false
+VAR library_clerk_check = false
 VAR mara_clues = 0
 VAR night_1_employee_records_checked = false
+VAR post_shift_2_tell_bex = false
+VAR post_shift_2_keep_quiet = false
 VAR priority = ""
 VAR silas_trust = 1
+VAR visited_restricted_passage = false
 
 
 -> night_0
