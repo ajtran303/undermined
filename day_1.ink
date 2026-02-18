@@ -72,13 +72,13 @@ The doors are spaced irregularly. Some corridors have three in a row. Others hav
 * "That's a lot of storage."
     "Big operation, big inventory." Dale doesn't elaborate.
     -> meet_bex
-* {rested > 0} You notice the temperature dropping as you walk deeper. Not dramatically, just a degree or two, steady, like descending into something.
-    -> meet_bex
 * [Note the door locations mentally.]
     You count. Fourteen locked doors between the office and the first scare zone. That's more infrastructure than any haunted attraction needs.
     -> meet_bex
 
 = meet_bex
+
+{rested > 0} You notice the temperature dropping as you walk deeper. Not dramatically, just a degree or two, steady, like descending into something.
 
 Dale rounds a corner and you nearly walk into someone.
 

@@ -74,7 +74,7 @@ The facts settle in the air.
     -> headquarters_cover_name
 * {not headquarters_record} "That's not possible.["] There has to be a record."
     -> headquarters_record
-* {not headquarters_wait} [Continue] You wait.
+* {not headquarters_wait} [Wait for him to continue.] You wait.
     -> headquarters_wait
 
 = headquarters_cover_name
@@ -113,7 +113,7 @@ His finger thuds on the map.
     -> the_horrorco
 * {not the_flagged} "Why did the Order flag this location?"
     -> the_flagged
-* [Continue]
+* [Nod.]
 -> the_ask
 
 =the_year_round
