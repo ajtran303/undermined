@@ -11,11 +11,15 @@
 //   - Descent: screaming from above, more real than real, normalizing as Val climbs deeper
 //       - When the last utility light is behind Val and the amber is all there is:
 //         callback to Night 4 ("Past the last light. She's still there.") — Val arrives at the location
-//   - Branches:
-//       When ONLY has_ritual_knowledge (no mara_pages / other_side conditions): -> buried_ending
-//       When ONLY other_side conditions (no ritual_knowledge): -> other_side_ending
-//       When BOTH are available: explicit choice point at the portal (see below)
-//       else: -> night_5_descent_default
+//   - Branches (check in this order):
+//       When BOTH: has_ritual_knowledge AND has_mara_pages AND (has_notebook_page || has_portal_mechanics) AND erasure_level < 8
+//         -> explicit choice point at the portal (see below)
+//       When ONLY other_side conditions: has_mara_pages AND (has_notebook_page || has_portal_mechanics) AND erasure_level < 8 AND NOT has_ritual_knowledge
+//         -> other_side_ending
+//       When has_ritual_knowledge AND other_side conditions NOT met (any of: no mara_pages, no portal knowledge, erasure >= 8)
+//         -> buried_ending
+//         covers: ritual only; ritual + mara_pages but no portal knowledge; ritual + high erasure
+//       else (no ritual_knowledge AND other_side conditions not met): -> night_5_descent_default
 //
 // CHOICE POINT — both endings available:
 // (has_ritual_knowledge AND has_mara_pages AND (has_notebook_page || has_portal_mechanics) AND erasure_level < 8)
