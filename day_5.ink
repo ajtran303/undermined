@@ -582,7 +582,7 @@ The fluorescent lights flicker. They've never flickered before.
 
 {dale_suspicion >= 8 && erasure_level >= 8: -> gone_ending}
 {dale_suspicion >= 8: -> gone_ending}
-{erasure_level >= 8 && (has_ritual_knowledge || has_escape_route || bex_relationship >= 5): -> desperate_transition}
+{erasure_level >= 8 && (has_ritual_knowledge || has_escape_route || has_mara_pages || bex_relationship >= 5): -> desperate_transition}
 {erasure_level >= 8: -> gone_ending}
 
 // Normal transition
@@ -611,6 +611,8 @@ But you have something.
 {has_ritual_knowledge: The containment pattern. Not in your notebook. Not in shorthand that's fading. In your muscles. In the movement of your hands. The one thing the erasure can't reach.}
 
 {has_escape_route: Gloria's truck. Behind the diner. Keys under the mat. The road out. The evidence in your pocket. You could still run.}
+
+{has_mara_pages: Mara's pages. In your jacket pocket. Her handwriting. The map. The symbol taxonomy. She documented everything the mine wanted to stay hidden. The erasure didn't reach the pages. The pages are in your hands.}
 
 {bex_relationship >= 5: Bex. Somewhere in the dark below. Still tracing symbols. Still fighting. Still holding on.}
 
