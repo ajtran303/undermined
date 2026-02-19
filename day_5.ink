@@ -38,17 +38,17 @@ Last day.
 
 Morning. You have until sundown.
 
-+ {not day_5_horrorco_done} [Go to The Hollows.]
+* {not day_5_horrorco_done} [Go to The Hollows.]
     -> day_5_horrorco
-+ {not day_5_gloria_done} [Go to the diner.]
+* {not day_5_gloria_done} [Go to the diner.]
     -> day_5_gloria
-+ {not day_5_silas_done} [Call Silas.]
+* {not day_5_silas_done} [Call Silas.]
     -> day_5_silas
-+ {not has_sinkhole_history || not has_horrorco_filing || not has_census_data} [Go to the library.]
+* {not has_sinkhole_history || not has_horrorco_filing || not has_census_data} [Go to the library.]
     -> day_5_library
-+ {has_escape_route} [Take Gloria's truck. Leave Veinrock.]
+* {has_escape_route} [Take Gloria's truck. Leave Veinrock.]
     -> daylight_check
-+ {day_5_horrorco_done && day_5_gloria_done && day_5_silas_done} [The sun is going down.]
+* {day_5_horrorco_done && day_5_gloria_done && day_5_silas_done} [The sun is going down.]
     -> day_5_transition
 
 = day_5_horrorco
@@ -171,15 +171,15 @@ He looks at you. Not at you. At a point slightly behind you. Or slightly through
 
 He said those exact words last night. Before the shift. In the same tone. With the same rhythm. You remember because you've heard them every night this week. But tonight the repetition isn't habit. It's a loop. A recording played back from the same magnetic strip.
 
-{not has_notebook_page && not has_portal_mechanics && not has_mara_pages && not visited_restricted_passage: You saw marks on the walls last night. Scratched into stone, deep in the tunnels, during the descent. You don't know what they were. But Dale's been here longer than the building. He might.}
+{not has_symbol_knowledge && not has_portal_mechanics && not has_mara_pages && not visited_restricted_passage: You saw marks on the walls last night. Scratched into stone, deep in the tunnels, during the descent. You don't know what they were. But Dale's been here longer than the building. He might.}
 
 {has_mara_pages: The carvings. Mara categorized them: containment, feeding, opening. Dale was here when the mine broke through. He knows what they are.}
 
-{has_notebook_page && not has_mara_pages: The carvings. Mara mapped them in her notebook. Dale was here when the mine broke through. He knows what they are.}
+{has_symbol_knowledge && not has_mara_pages: The carvings. Mara mapped them in her notebook. Dale was here when the mine broke through. He knows what they are.}
 
-{has_portal_mechanics && not has_notebook_page && not has_mara_pages: The carvings. Silas's 1971 report called them containment sigils. Dale was here when the mine broke through. He knows what they are.}
+{has_portal_mechanics && not has_symbol_knowledge && not has_mara_pages: The carvings. Silas's 1971 report called them containment sigils. Dale was here when the mine broke through. He knows what they are.}
 
-{visited_restricted_passage && not has_portal_mechanics && not has_notebook_page && not has_mara_pages: The carvings. You saw them in the restricted passage, scratched into raw stone. Dale was here when the mine broke through. He knows what they are.}
+{visited_restricted_passage && not has_portal_mechanics && not has_symbol_knowledge && not has_mara_pages: The carvings. You saw them in the restricted passage, scratched into raw stone. Dale was here when the mine broke through. He knows what they are.}
 
 * "What happens tonight, Dale?"
     "Big night tonight. Full house. Make it real, people." The same words again. Same tone. Same cadence. He blinks. His eyes refocus, almost finding yours. "Tonight the system reaches capacity. The balance tips. Whatever happens after midnight, it won't be manageable. Not by me. Not by anyone."
@@ -242,9 +242,9 @@ Then she reaches up and unclasps something from around her neck. A chain. On it,
 
 The disc is heavy for its size. On one face, a symbol: concentric arcs intersected by angular lines, etched deep into the metal. Not decorative. Functional. The kind of mark someone makes when they want it to last.
 
-{has_notebook_page: You recognize the symbol. Mara's diagram. The carvings on the tunnel walls. The same pattern, reduced to its smallest element, cast in metal by an engineer who found it in the deep tunnels and understood what it meant. He wore it every day. A portable containment ward.}
+{has_symbol_knowledge: You recognize the symbol. Mara's diagram. The carvings on the tunnel walls. The same pattern, reduced to its smallest element, cast in metal by an engineer who found it in the deep tunnels and understood what it meant. He wore it every day. A portable containment ward.}
 
-{not has_notebook_page: You've seen this before. Last night, in the tunnels, scratched into the walls. The same language. The same shapes. But those were carved into stone that cracks and wears. This is cast in metal. Permanent. A containment fragment you can carry in your pocket. {~ has_notebook_page = true} }
+{not has_symbol_knowledge: You've seen this before. Last night, in the tunnels, scratched into the walls. The same language. The same shapes. But those were carved into stone that cracks and wears. This is cast in metal. Permanent. A containment fragment you can carry in your pocket. {~ has_symbol_knowledge = true} }
 
 "He wasn't superstitious. He was an engineer. But he said the deep tunnels felt different when he wore it. Quieter." Gloria's voice is steady. Her hands are not. "I don't know if it does anything. But it's the only thing I have left of him that isn't paper. And I want you to have it."
 
@@ -349,12 +349,13 @@ Black and white. Creased down the middle where it's been folded and unfolded. A 
 
 But in the rock face flanking the entrance, visible in the photograph the way a watermark is visible when you hold paper to the light: carvings. Lines cut into the stone. Not decoration. Not graffiti. Deliberate marks, angular and deep, running along both sides of the entrance like a frame.
 
-{has_notebook_page: You recognize them. The same symbols from Mara's diagram. The same marks you found in the tunnels. The containment carvings, visible in a photograph taken a year before the sinkhole. They were intact then. Unbroken. The full system, working.}
+{has_symbol_knowledge: You recognize them. The same symbols from Mara's diagram. The same marks you found in the tunnels. The containment carvings, visible in a photograph taken a year before the sinkhole. They were intact then. Unbroken. The full system, working.}
 
-{not has_notebook_page: You've seen those marks. Last night, in the tunnels. Scratched into stone, deep underground. But here they are at the surface, framing the mine entrance, carved into the rock face a year before everything collapsed. A system. Intact. Whatever they were holding shut, they were holding it. {~ has_notebook_page = true} }
+{not has_symbol_knowledge: You've seen those marks. Last night, in the tunnels. Scratched into stone, deep underground. But here they are at the surface, framing the mine entrance, carved into the rock face a year before everything collapsed. A system. Intact. Whatever they were holding shut, they were holding it. {~ has_symbol_knowledge = true} }
 
 "That's my father," Gloria says. "That's the mine before." Before the sinkhole. Before the forty-eight men. Before everything.
 
+~ has_gloria_photograph = true
 She doesn't take the photograph back.
 
 "I don't know what those marks are. He never talked about them. But they were important to him. He checked them every morning before his shift. Walked the entrance and ran his hands along the stone." She pauses. "Like he was making sure they were still there."
@@ -498,13 +499,13 @@ You know what you're looking for. You work fast.
 ~ daylight_evidence_count = 0
 ~ has_investigation_gated = false
 
-{has_notebook_page: {~ daylight_evidence_count += 1} }
+{has_symbol_knowledge: {~ daylight_evidence_count += 1} }
 {has_horrorco_filing: {~ daylight_evidence_count += 1} }
 {has_mara_recording: {~ daylight_evidence_count += 1} }
 {has_dale_file: {~ daylight_evidence_count += 1} }
 {has_census_data: {~ daylight_evidence_count += 1} }
 {has_mara_pages: {~ daylight_evidence_count += 1} }
-{has_notebook_page: {~ has_investigation_gated = true} }
+{has_symbol_knowledge: {~ has_investigation_gated = true} }
 {has_mara_recording: {~ has_investigation_gated = true} }
 {has_mara_pages: {~ has_investigation_gated = true} }
 

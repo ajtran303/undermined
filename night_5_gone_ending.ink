@@ -46,6 +46,18 @@
 -> gone_shared
 
 
+= gone_portal
+
+// BEAT: Val steps into the portal without ritual, without protection, without a map.
+// Not dissolution — not thinning out over days. A single decisive moment.
+// No ritual knowledge, no containment circuit, no guide. Just the edge and the step.
+// The amber light doesn't feel like light. The hum doesn't feel like sound.
+// The Figure watched. Didn't stop them. Didn't follow.
+// The other side receives Val the way stone receives water: completely, without remainder.
+
+-> gone_shared
+
+
 = gone_shared
 
 // BEAT: Variable-driven reflection, then unified close.

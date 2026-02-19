@@ -1,6 +1,6 @@
 === other_side_ending ===
 
-// Entry: Val has has_mara_pages AND (has_notebook_page OR has_portal_mechanics)
+// Entry: Val has has_mara_pages AND (has_symbol_knowledge OR has_portal_mechanics)
 //   AND erasure_level < 8.
 // Night_5 routes here (as other_side_check) after the descent.
 // Val is at the portal, deciding to cross.

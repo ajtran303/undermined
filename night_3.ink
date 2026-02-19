@@ -324,11 +324,11 @@ The right passage has a light at the far end. A single bulb, caged, the kind use
 
 Symbols.
 
-{has_notebook_page: The same angular, geometric patterns from the maintenance tunnel. Mara's notebook page. But these are larger. Deeper. Cut into the stone with something heavy. And there are more of them, covering a wider area.}
+{has_symbol_knowledge: The same angular, geometric patterns from the maintenance tunnel. Mara's notebook page. But these are larger. Deeper. Cut into the stone with something heavy. And there are more of them, covering a wider area.}
 
 {has_portal_mechanics: Containment sigils. That's what Silas said the Order's 1971 agent called them. These are part of the same system. The lock that was supposed to keep the portal shut.}
 
-{not has_notebook_page && not has_portal_mechanics: You don't recognize them. But they're deliberate. Someone carved these with purpose. They cover a section of wall maybe six feet wide, arranged in concentric arcs, like a target. Or a diagram. Or a map of something that spirals downward.}
+{not has_symbol_knowledge && not has_portal_mechanics: You don't recognize them. But they're deliberate. Someone carved these with purpose. They cover a section of wall maybe six feet wide, arranged in concentric arcs, like a target. Or a diagram. Or a map of something that spirals downward.}
 
 You step closer. The carvings are old. The stone around them is smooth, worn. But at the bottom of the arrangement, newer scratches. Sharper. Fresh stone showing white against the dark surface.
 

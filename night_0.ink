@@ -221,7 +221,7 @@ You manage a few hours of shallow, restless sleep. You dream about a mine shaft 
 
 ~ day_1_gloria = true
 
-You walk along the main road as the sun comes up. Everything is closed. The town feels like a movie set. Facades with nothing behind them. You notice the diner opens at 7. An older adult woman behind the window turns on lights. You don't go in yet, but you've clocked her.
+You walk along the main road as the sun comes up. Everything is closed. The town feels like a movie set. Facades with nothing behind them. You notice the diner opens at 7. A woman behind the window turns on lights. You don't go in yet, but you've clocked her.
 
 -> veinrock_hub
 
@@ -237,7 +237,7 @@ You call Silas. He picks up on one ring.
 
 = end_night_0
 
-2PM.
+2 PM.
 
 You walk across town to The Hollows.
 

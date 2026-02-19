@@ -14,7 +14,7 @@ Someone came in while you slept and reset the room. Or the room reset itself.
 
 ~ erasure_level += 1
 
-You check the nightstand drawer. Your notebook is still there, written in Order shorthand. The burner phone still works. {has_notebook_page: Mara's page is still in your hand, where you fell asleep holding it.}
+You check the nightstand drawer. Your notebook is still there, written in Order shorthand. The burner phone still works. {has_symbol_knowledge: Mara's page is still in your hand, where you fell asleep holding it.}
 
 But everything else. The lived-in evidence of a person staying in this room. Gone.
 
@@ -62,7 +62,7 @@ Static. Then, distantly, Silas's voice. Like he's talking from the bottom of a w
 
 "Val." A pause. Crackling. "...harder to reach you. The signal..."
 
-You tell him about Night 2. {has_notebook_page: The maintenance tunnel, the symbols, Mara's notebook page.} {not has_notebook_page: The Shaft, the figure appearing closer.} The motel room resetting itself this morning.
+You tell him about Night 2. {has_symbol_knowledge: The maintenance tunnel, the symbols, Mara's notebook page.} {not has_symbol_knowledge: The Shaft, the figure appearing closer.} The motel room resetting itself this morning.
 
 {silas_trust >= 4: The static clears. Just for a moment, like Silas is pushing through it by sheer force of will.}
 

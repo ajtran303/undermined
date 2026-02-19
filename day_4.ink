@@ -79,11 +79,11 @@ You step aside. They walk into the motel room. They move carefully, looking at t
 "I've been maintaining the carvings," Bex says. "In the tunnels. Deep in the mine, on the walls. There are symbols carved into the stone. Old ones. Much older than the mine."
 
 {has_mara_pages: Mara's pages. The symbols she categorized: containment, feeding, opening. The containment ones. Bex has been maintaining them.}
-{has_notebook_page && not has_mara_pages: Mara's notebook page. The symbols she was mapping. "Not decorative. Functional?" Now Bex is telling you what they're for.}
+{has_symbol_knowledge && not has_mara_pages: Mara's notebook page. The symbols she was mapping. "Not decorative. Functional?" Now Bex is telling you what they're for.}
 
 {has_portal_mechanics: Silas's intel. The 1971 field agent. Containment sigils. Someone tried to keep the portal shut. That someone is sitting in your motel room.}
 
-{not has_notebook_page && not has_mara_pages && not has_portal_mechanics: You haven't seen them. But Bex talks about them the way an engineer talks about load-bearing walls: with the certainty of someone who knows what happens if they fail.}
+{not has_symbol_knowledge && not has_mara_pages && not has_portal_mechanics: You haven't seen them. But Bex talks about them the way an engineer talks about load-bearing walls: with the certainty of someone who knows what happens if they fail.}
 
 "Someone carved them a long time ago. Before the mine. Before the town. They were meant to hold it closed. When the mine broke through, in '73, the sigils cracked. Not all of them. Enough." Bex's voice is steady. Practiced. Like they've rehearsed this in their head for years, waiting for someone to tell.
 
@@ -282,7 +282,7 @@ Symbols. Hand-copied, painstakingly, with the careful strokes of an engineer rep
 But this is the complete pattern. Or close to it. Martin Aldrich found the symbols in the deepest tunnels when they were first dug. He didn't know what they meant. He copied them because that's what engineers do: they document what they find.
 
 {has_mara_pages: Mara categorized the symbols into three types: containment, feeding, opening. Martin's page shows the containment pattern. The full circuit. The lock that was supposed to hold the portal shut.}
-{has_notebook_page && not has_mara_pages: Mara's notebook page showed fragments of this same pattern. Martin's page shows the whole thing. The full circuit. The lock that was supposed to hold the portal shut.}
+{has_symbol_knowledge && not has_mara_pages: Mara's notebook page showed fragments of this same pattern. Martin's page shows the whole thing. The full circuit. The lock that was supposed to hold the portal shut.}
 
 {has_portal_mechanics: The 1971 agent found fragments of this pattern and recommended sealing the shaft. If the Order had listened, the full pattern might have been preserved. Instead, the sinkhole broke it. Martin's copy is the only record of what it looked like before.}
 
@@ -475,7 +475,6 @@ You set it down. You pick it up again. The number is still there. You should rem
 ~ visited_tunnels = true
 ~ dale_suspicion += 1
 ~ erasure_level += 1
-~ mara_clues += 1
 
 The Hollows is closed. The parking lot is empty except for two vehicles: a white van marked HORRORCO ENTERTAINMENT and Dale's truck. The building is dark. No fog, no lights, no screaming. The mine entrance is just a hole in the mountain.
 
@@ -499,13 +498,13 @@ On the wall, at the boundary between show and mine: a handprint in copper-colore
 
 Below the handprint, scratched into the stone with something sharp: an arrow. Pointing down.
 
-{not has_notebook_page: And beside the arrow, tucked into a crack in the stone where the wall meets the floor: a folded page. Notebook paper, creased and dusty. You pull it out. A diagram. Symbols arranged in concentric arcs, painstakingly reproduced in hard pencil. Annotations in cramped handwriting: arrows connecting repeating elements, question marks next to unfamiliar symbols, circles around patterns the author thought were significant.}
+{not has_symbol_knowledge: And beside the arrow, tucked into a crack in the stone where the wall meets the floor: a folded page. Notebook paper, creased and dusty. You pull it out. A diagram. Symbols arranged in concentric arcs, painstakingly reproduced in hard pencil. Annotations in cramped handwriting: arrows connecting repeating elements, question marks next to unfamiliar symbols, circles around patterns the author thought were significant.}
 
-{not has_notebook_page: Mara's handwriting. Another page from her notebook. She was mapping these symbols across the mine, leaving copies of her work like breadcrumbs.}
+{not has_symbol_knowledge: Mara's handwriting. Another page from her notebook. She was mapping these symbols across the mine, leaving copies of her work like breadcrumbs.}
 
-{not has_notebook_page: You fold it carefully and pocket it. {~ has_notebook_page = true} }
+{not has_symbol_knowledge: You fold it carefully and pocket it. {~ has_symbol_knowledge = true} {~ mara_clues += 1} }
 
-{has_notebook_page: You already have Mara's diagram from the maintenance tunnel. But here, beside the arrow, you can see where she pressed her hand against the wall while she worked. The copper dust holds her print perfectly. She stood exactly where you're standing.}
+{has_symbol_knowledge: You already have Mara's diagram from the maintenance tunnel. But here, beside the arrow, you can see where she pressed her hand against the wall while she worked. The copper dust holds her print perfectly. She stood exactly where you're standing.}
 
 You follow it.
 
@@ -535,7 +534,7 @@ You close the motel room door. Sit on the bed. Spread everything out.
 
 {has_mara_pages: Mara's pages. A hand-drawn map of all three levels, the portal marked at the bottom. Three types of symbols: containment, feeding, opening. A timeline connecting each new scare zone to a disappearance. "The containment is being undermined from inside."}
 
-{has_notebook_page: Mara's notebook page from the maintenance tunnel. The diagram of symbols, painstakingly copied. Her annotations: arrows, question marks, circles around patterns. "Not decorative. Functional?" And the torn sentence that stops mid-thought.}
+{has_symbol_knowledge: Mara's notebook page from the maintenance tunnel. The diagram of symbols, painstakingly copied. Her annotations: arrows, question marks, circles around patterns. "Not decorative. Functional?" And the torn sentence that stops mid-thought.}
 
 {has_portal_mechanics: Silas's intel, written down in your own shorthand (you have to concentrate to read it now): the Order investigated the mine in 1971. Containment sigils. Field agent recommended sealing the shaft. The Order filed the report and did nothing.}
 
@@ -555,13 +554,13 @@ You close the motel room door. Sit on the bed. Spread everything out.
 
 You lay it all out. Every piece. Every fragment. And you look at what you have and what you don't.
 
-{has_ritual_knowledge && has_notebook_page && has_portal_mechanics: You could seal it. The containment pattern, the symbol mechanics, the portal's history. You have the knowledge to attempt the ritual. You'd need to be at the portal itself, during the pause between breaths, and you'd need to survive long enough to complete the pattern. But you could try.}
+{has_ritual_knowledge && has_symbol_knowledge && has_portal_mechanics: You could seal it. The containment pattern, the symbol mechanics, the portal's history. You have the knowledge to attempt the ritual. You'd need to be at the portal itself, during the pause between breaths, and you'd need to survive long enough to complete the pattern. But you could try.}
 
 {has_escape_route && (has_dale_file || has_horrorco_filing || has_sinkhole_history): You could run. Gloria's truck, the evidence you've gathered. Drive to Vegas. Call the Order. Turn over everything and let someone else finish it. You'd survive. Probably. If the erasure doesn't follow you. If anyone remembers you when you arrive.}
 
-{(has_notebook_page || has_portal_mechanics) && not has_ritual_knowledge: You could go to the portal. But you don't know how to close it. You'd be going in blind, with knowledge but no method. You could try to understand it. You could try to go through it. You don't know what's on the other side.}
+{(has_symbol_knowledge || has_portal_mechanics) && not has_ritual_knowledge: You could go to the portal. But you don't know how to close it. You'd be going in blind, with knowledge but no method. You could try to understand it. You could try to go through it. You don't know what's on the other side.}
 
-{not has_notebook_page && not has_portal_mechanics && not has_ritual_knowledge: You don't have enough. Not enough to seal it, not enough to understand it, not enough to bring back to the Order. You're going into tonight with instinct and stubbornness and not much else.}
+{not has_symbol_knowledge && not has_portal_mechanics && not has_ritual_knowledge: You don't have enough. Not enough to seal it, not enough to understand it, not enough to bring back to the Order. You're going into tonight with instinct and stubbornness and not much else.}
 
 You close the notebook. You know what you know. You know what you don't.
 

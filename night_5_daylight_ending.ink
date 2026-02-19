@@ -2,7 +2,7 @@
 
 // Entry: Val took Gloria's truck during Day 5 (daylight_qualified path).
 // Has escape route + 3 evidence pieces including at least 1 investigation-gated
-//   (has_notebook_page, has_mara_recording, or has_mara_pages).
+//   (has_symbol_knowledge, has_mara_recording, or has_mara_pages).
 // Val chose to leave before Night 5. Veinrock disappears behind them.
 // Moral weight: Val survived and brought proof. The proof is partly the town's erasure.
 //   Gloria, Tuck, the guests — left in the blank space where Veinrock used to be.
@@ -30,7 +30,8 @@
 // Evidence in Val's jacket/bag — vary by flags:
 //   {has_mara_recording: Mara's recorder. Day eight.}
 //   {has_mara_pages: Her research pages. The carvings. Feeding cycles.}
-//   {has_notebook_page: The photograph of the mine entrance, 1972. Before.}
+//   {has_gloria_photograph: The photograph of the mine entrance, 1972. Before.}
+//   {has_gloria_medallion: Martin Aldrich's disc. Heavy in Val's pocket. The containment symbol cast in metal.}
 // Sun comes up around hour three. Gas station somewhere in Nevada.
 // Val doesn't think about what they left behind. Not yet.
 
@@ -56,12 +57,22 @@
 // Val lays out everything. Evidence hits the desk as Val talks.
 //   {has_mara_recording: Silas picks up the recorder. Listens to the whole thing.
 //     "Day eight." Sets it down carefully. "We thought she'd been on the ground for three days."}
-//   {has_mara_pages: Silas reads slowly. Matches it to the 1971 report Aldrich filed.
+//   {has_mara_pages: Silas reads slowly. Matches it to the 1971 report field agents filed.
 //     "You found Mara's research."}
-//   {has_notebook_page: Silas holds the photograph up to the light. 1972. Carvings intact.
+//   {has_gloria_photograph: Silas holds the photograph up to the light. 1972. Carvings intact.
 //     "This is the before."}
 //   {has_horrorco_filing: Silas reads the date. June 22nd, 1973. One week after the sinkhole.
 //     "Someone expected the sinkhole."}
+//   {has_sinkhole_history: Val's notes on the 1973 Gazette. The shaft extending "beyond available sounding equipment."
+//     Silas: "That's consistent with an opening event. Not a collapse."}
+//   {has_dale_file: Val describes Dale's record. 27 identical reviews, zero sick days, 27 years.
+//     Silas: "That's not a person. That's a function."}
+//   {has_census_data: Population data. Zero in 1975. 47 in 1999. 54 in 2020. Nobody dies, nobody leaves.
+//     Silas: "A closed system."}
+//   {has_ritual_knowledge: Val describes the complete containment pattern. Memorized in muscle memory.
+//     Silas records every detail. "If we get a team to the site, this is the protocol."}
+//   {has_gloria_medallion: Val puts the disc on the desk. Silas holds it next to the 1971 field agent sketches.
+//     Same marks. "Where did you get this?" "A woman named Gloria. Her father wore it underground for thirty years."}
 // Silas says he believes Val — everything aligns. But the Order needs corroboration.
 // Val says: look up Veinrock.
 
@@ -93,7 +104,8 @@
 // Las Vegas afternoon. Exhaust and heat and traffic. The world continuing without knowledge
 //   of what's under a mine in the Nevada desert.
 // Val survived. Brought evidence. Gave the Order what they needed.
-// But Mara's recorder is with Silas now. The photograph of Martin Aldrich.
+// But Mara's recorder is with Silas now. {has_gloria_photograph: The photograph of Martin Aldrich.}
+//   {has_gloria_medallion: The medallion is with Silas now. Gloria's last piece of her father, given to a stranger, filed as evidence.}
 //   Gloria stayed. She knew what the town was. She gave Val the truck anyway.
 // The blank spot on the map is the corroboration.
 // The blank spot on the map is also where everyone was.

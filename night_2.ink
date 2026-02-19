@@ -337,12 +337,12 @@ The sentence stops. The bottom of the page is torn.
 She found these same symbols somewhere else first: the deep rooms. Then she found her way down here and found them again. She was mapping them. Comparing them.
 
 * [Pocket the page.]
-    ~ has_notebook_page = true
+    ~ has_symbol_knowledge = true
     You fold it carefully and tuck it inside your jumpsuit. This is evidence. Mara was here. Mara found these symbols. Mara was trying to understand them.
     {priority == "find_mara": She was this close. She made it further than you have. And then she stopped.}
     -> restricted_door
 * [Study it for another moment.]
-    ~ has_notebook_page = true
+    ~ has_symbol_knowledge = true
     The symbols aren't random. Even without understanding them, you can see a structure. They repeat in sequences. They scale in size as they get closer to the center, as if describing something that narrows. Something that descends.
     You pocket the page.
     -> restricted_door
@@ -450,11 +450,11 @@ The hum. It's louder now than last night. Or you're more attuned to it. You can'
 
 Room 6. Door locked. Shades drawn.
 
-{has_notebook_page: You take out Mara's notebook page and lay it on the nightstand. The diagram. The symbols. The torn edge where her thought was cut short.}
+{has_symbol_knowledge: You take out Mara's notebook page and lay it on the nightstand. The diagram. The symbols. The torn edge where her thought was cut short.}
 
-{has_notebook_page: "The symbols match the patterns in the stone around the"}
+{has_symbol_knowledge: "The symbols match the patterns in the stone around the"}
 
-{has_notebook_page: Around the what? The portal? The door? The shaft itself?}
+{has_symbol_knowledge: Around the what? The portal? The door? The shaft itself?}
 
 {priority == "find_mara": Mara was in that tunnel. She was doing the work. She was close to something. And then the work stopped and so did she. You're following her footsteps. You need to make sure they don't lead to the same place.}
 
