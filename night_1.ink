@@ -216,13 +216,13 @@ Then they turn and walk on.
 
 11:15 PM.
 
-Between groups, you stretch your neck and roll your shoulders. The boo hole is cramped. Your knees are stiff from standing. The mask is damp with condensation from your breath.
+Between groups, you stretch your neck and roll your shoulders. The boo hole is cramped. Your knees are stiff from standing. The mask is damp with sweat.
 
 You look down the corridor through the window slit, watching the fog drift.
 
 Someone is standing in the corridor.
 
-Not moving. Not approaching. Just standing at the far end, where the corridor curves. They're in full costume: black base layer, a mask you don't recognize. Not The Collapse's cracked skull design. Something older. Rougher. Like burlap pulled over a face.
+Not moving. Not approaching. Just standing at the far end, where the corridor curves. They look like an actor without a full costume: black base layer, a mask you don't recognize. Not The Collapse's cracked skull design. Something older. Rougher. Like burlap pulled over a face.
 
 They're facing you.
 

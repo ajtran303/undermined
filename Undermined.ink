@@ -8,7 +8,12 @@ INCLUDE night_3.ink
 INCLUDE day_4.ink
 INCLUDE night_4.ink
 INCLUDE day_5.ink
-INCLUDE stubs.ink
+INCLUDE night_5.ink
+INCLUDE night_5_gone_ending.ink
+INCLUDE night_5_buried_ending.ink
+INCLUDE night_5_other_side_ending.ink
+INCLUDE night_5_daylight_ending.ink
+INCLUDE night_5_daylight_diminished_ending.ink
 
 
 VAR ate_meatloaf = false

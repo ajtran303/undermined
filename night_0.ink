@@ -41,7 +41,7 @@ He picks up one photograph and holds it up.
 
 He slides the other photograph across the table. It's a promotional shot of the entrance to The Hollows. A massive mine shaft mouth, lit in red, fog spilling out. The tagline reads: THE MOST TERRIFYING EXPERIENCE IN AMERICA. OPEN 365 NIGHTS A YEAR.
 
-"For the first ten days, she reported in regularly. Standard observations. Unnaturally large attraction. Extends deep underground. Some areas restricted to senior staff. Then her reports became... odd."
+"For the first few days, she reported in regularly. Standard observations. Unnaturally large attraction. Extends deep underground. Some areas restricted to senior staff. Then her reports became... odd."
 
 * "Odd how?"
 * "Define odd."
@@ -55,7 +55,7 @@ He slides the other photograph across the table. It's a promotional shot of the 
 
 He pauses.
 
-"Her last report was twenty days ago. I've heard nothing since."
+"Her last report was ten days ago. I've heard nothing since."
 
 * "Did you try to reach her?"
 * "What did you do?"
@@ -64,7 +64,7 @@ He pauses.
 
 The facts settle in the air.
 
-"Mara Castillo worked there for ten days. She reported to me from inside. And now they are saying she never existed."
+"Mara Castillo worked there. She reported to me from inside. And now they are saying she never existed."
 
 -> headquarters_answers
 

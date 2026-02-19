@@ -430,7 +430,7 @@ Bex is at their station, removing their own makeup. They don't look at you.
     "Don't go back down there, Val." Their voice is quiet. "Please."
     It's the first time they've said please about anything.
     -> end_night_2
-* {restricted_passage} [Keep it to yourself for now.]
+* {visited_restricted_passage} [Keep it to yourself for now.]
     ~ post_shift_2_keep_quiet = true
     ~ bex_relationship -= 1
     You don't mention the grate. You don't mention the tunnel. You sit and clean your makeup in silence.

@@ -526,8 +526,6 @@ Tuck laughs. Easy, unbothered. Same person who said "I guess I haven't thought a
     }
 }
 
--> post_shift_3_end
-
 = post_shift_3_bex
 
 * [Tell Bex what you saw.]

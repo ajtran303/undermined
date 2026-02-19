@@ -153,6 +153,8 @@ It's not show dialogue. There's no scripted line like that in any zone. You lean
 
 They don't know they said it.
 
+Past the last light. You turn the words over. That's not a show line. That's a location.
+
 -> figure_returns
 
 = figure_returns
@@ -341,6 +343,8 @@ The spiral steps. Rough-cut stone, old, descending in a tight helix. The amber l
 The air is hot. Not warm. Hot. Each breath singes the back of your throat. The copper-ozone smell fills your sinuses. Under it, something older. Mineral. The smell of deep stone, of earth that hasn't seen air in millennia.
 
 You descend.
+
+The last utility light is above you now. There is only the amber.
 
 The steps are worn smooth in the center. Thousands of feet, over thousands of years, walking this same spiral. Not just miners. Not just HorrorCo employees. Someone carved these steps long before the mine existed. Someone was coming down here when this was just a mountain with something underneath it.
 

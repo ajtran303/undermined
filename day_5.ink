@@ -478,12 +478,13 @@ You know what you're looking for. You work fast.
     -> day_5_library
 * {not has_horrorco_filing} [Incorporation records: HorrorCo Entertainment.]
     ~ has_horrorco_filing = true
-    County records. Incorporation filing dated June 22, 1973. One week after the sinkhole. HorrorCo Entertainment, LLC. Registered Agent: M. Aldrich. {gloria_trust >= 3: The same Martin Aldrich whose daughter runs the diner on Main Street.}{gloria_trust < 3: Aldrich, like the mine.}
+    County records. Incorporation filing dated June 22, 1973. One week after the sinkhole. HorrorCo Entertainment, LLC. Registered Agent: M. Aldrich. {gloria_trust >= 3: The same Martin Aldrich whose daughter runs the diner on Main Street. Martin Aldrich died in that sinkhole. His name is on this paper.}{gloria_trust < 3: Aldrich, like the mine.}
     One week. Forty-eight men dead and one week later someone filed paperwork to turn the mine into a haunted attraction. As if the plan was already in place. As if the sinkhole was the trigger, not the tragedy.
+    No activity on record between 1973 and 1998. The company existed for twenty-five years before it did anything. It waited.
     -> day_5_library
 * {not has_census_data} [Census data: Veinrock population.]
     ~ has_census_data = true
-    Population records. Veinrock, Nevada. 1970: 203. 1975: 0. 1980: 0. 1990: 12. 2000: 47. 2010: 51. 2020: 54.
+    Population records. Veinrock, Nevada. 1970: 203. 1975: 0. 1980: 0. 1999: 47. 2010: 51. 2020: 54.
     Zero. The town emptied completely after the sinkhole. Then people came back. Slowly. And once they came back, nobody left. Nobody died. The population only ever grew — 47 to 51 to 54 over two decades — but never shrank. Not by one. As if the town only knew how to accumulate.
     -> day_5_library
 * [Done.]
@@ -579,10 +580,10 @@ The fluorescent lights flicker. They've never flickered before.
 
 // Cascading Gone checks
 
-{dale_suspicion >= 8 && erasure_level >= 8: -> gone_simultaneous}
-{dale_suspicion >= 8: -> gone_dale}
+{dale_suspicion >= 8 && erasure_level >= 8: -> gone_ending}
+{dale_suspicion >= 8: -> gone_ending}
 {erasure_level >= 8 && (has_ritual_knowledge || has_escape_route || bex_relationship >= 5): -> desperate_transition}
-{erasure_level >= 8: -> gone_erasure}
+{erasure_level >= 8: -> gone_ending}
 
 // Normal transition
 Dale is at the check-in desk. Or: Dale's shape is at the check-in desk. Same polo. Same clipboard. Same smile. But the smile doesn't sync with the words. The expression forms a half-second before the mouth moves.
@@ -596,41 +597,6 @@ Last shift.
 * [Night 5.]
     -> night_5
 
-= gone_simultaneous
-
-Dale is in the corridor.
-
-He sees you. Starts to speak. His mouth opens and the words that come out are from a briefing three nights ago, verbatim, delivered in the same cadence, the same rhythm, a recording played back from the same strip of tape.
-
-"Big night tonight. Full house. Make it—"
-
-He reaches toward you. To stop you. To redirect you. To manage. His hand extends and his fingers enter the space where your arm is and there's nothing there to stop them. His hand passes through you. Not metaphorically. His fingers go through your sleeve, through the space where your body should be, and out the other side.
-
-He looks at his hand. You look at yours.
-
-Both of you are losing substance. The manager and the managed. The system and the thing it was built to contain. Coming apart at the same time, in the same corridor, under the same flickering fluorescent lights.
-
-"Make it real," Dale says. To no one. To the corridor. To the hum.
-
-The fluorescent lights flicker. The hum swallows everything.
-
-Two mechanisms failing in parallel. Neither gets to finish what it started. The mine takes you both.
-
--> gone_ending
-
-= gone_dale
-
-Dale is waiting.
-
-Not at the check-in desk. In the corridor. Blocking the path. The polo shirt is gone. The clipboard is gone. He's wearing the mining jumpsuit. The same one from the spiral steps. The same era as the Figure's. He's been below, preparing, and now he's here, between you and the entrance.
-
-He knew you were coming. He's been watching all week. Every question. Every locked door you tried. Every record you searched, every corridor you wandered. Dale tracked all of it.
-
-He doesn't speak. He doesn't need to. He gave his warnings. He made his offer. He explained his system. None of it worked.
-
-He acts first.
-
--> gone_ending
 
 = desperate_transition
 
@@ -657,20 +623,3 @@ Last shift. Whatever you're going to do, do it now.
 * [Night 5.]
     -> night_5
 
-= gone_erasure
-
-You walk into the building and the building doesn't notice.
-
-The fluorescent lights don't flicker when you pass under them. The floor doesn't register your weight. Your footsteps make no sound. You're not walking through the corridor so much as drifting through it, the way a current moves through water. Without resistance. Without impact.
-
-Dale is at the check-in desk. He looks up. His eyes pass over the space where you are and settle on the wall behind you. He looks back at his clipboard.
-
-"Big night tonight," he says to no one. "Full house."
-
-You're standing three feet from him. He doesn't see you.
-
-You raise your hand. The fluorescent light passes through your fingers.
-
-You're already gone. You just haven't stopped moving yet.
-
--> gone_ending
