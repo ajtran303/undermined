@@ -252,7 +252,6 @@ You don't have the key. You don't have the path. But you're here. You made it to
     -> daylight_ending_diminished
 * {has_gloria_medallion} [Step forward. Hold the disc.]
     The disc vibrates against your chest. The counter-frequency pushes back against the portal's pull. Not enough to close it. Enough to cross it.
-    You step off the edge.
     The Figure watches.
     -> other_side_ending
 * {not has_gloria_medallion} [Step forward.]
