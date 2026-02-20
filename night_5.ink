@@ -123,7 +123,9 @@ The screaming from above is distant now. A murmur. The portal's breathing is the
 
 The Figure reaches the bottom. Steps off the last stair into the cavern. The portal chamber.
 
-You stand on the final step and look.
+You stand on the final step.
+
+[Look.]
 
 -> portal_chamber
 
@@ -139,7 +141,7 @@ You've felt it for five days. The hum. The heat. The pull. Now you see it.
 
 It's not a hole. It's not a door. It's a place in the air where the cavern stops being a cavern. The stone floor ends in a circle, maybe fifteen feet across, and inside the circle there is no floor. No rock. No anything. Just depth. A shaft that goes down into something that isn't earth. The amber light rises from it the way heat rises from asphalt, shimmering, distorting the air above it, and if you look straight down you see nothing. Not darkness. Nothing. An absence so complete it has texture.
 
-The carvings ring the edge. Concentric arcs, angular intersections. The containment pattern, or what's left of it. Some of the lines are sharp and deep. Some are almost smooth, worn away by decades. Some have been freshly recut. Bex's work. And some have been scored through with new marks, deliberate vandalism, the feeding and opening glyphs that HorrorCo added to widen the portal inch by inch over twenty-seven years.
+The carvings ring the edge. Concentric arcs, angular intersections. The containment pattern, or what's left of it. Some of the lines are sharp and deep. Some are almost smooth, worn away by decades. Some have been freshly recut. {bex_relationship >= 5:  Bex's work.} And some have been scored through with new marks, deliberate vandalism, the feeding and opening glyphs that HorrorCo added to widen the portal inch by inch over twenty-seven years.
 
 The Figure stands at the far edge of the circle. Facing you across the portal through the burlap mask. Motionless.
 
@@ -186,7 +188,7 @@ The portal doesn't care which one you choose. It breathes either way.
         The Figure stands on the other side. If you seal this, you seal her in. Wherever she is. Whatever she's become. The lock closes from this side only.
         -> buried_ending
     * [Cross.]
-        You came to find her. The pattern can wait. The containment can hold a little longer, the way Bex has held it, night after night, for decades. The cracks aren't going anywhere.
+        You came to find her. The pattern can wait. The containment can hold a little longer{{bex_relationship >= 5:, the way Bex has held it, night after night, for decades}. The cracks aren't going anywhere.
         She's been on the other side long enough.
         -> other_side_ending
 }
