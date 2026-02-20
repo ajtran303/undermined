@@ -188,7 +188,7 @@ The portal doesn't care which one you choose. It breathes either way.
         The Figure stands on the other side. If you seal this, you seal her in. Wherever she is. Whatever she's become. The lock closes from this side only.
         -> buried_ending
     * [Cross.]
-        You came to find her. The pattern can wait. The containment can hold a little longer{{bex_relationship >= 5:, the way Bex has held it, night after night, for decades}. The cracks aren't going anywhere.
+        You came to find her. The pattern can wait. The containment can hold a little longer{bex_relationship >= 5:, the way Bex has held it, night after night, for decades}. The cracks aren't going anywhere.
         She's been on the other side long enough.
         -> other_side_ending
 }
@@ -224,7 +224,8 @@ The portal breathes. Exhale. Inhale. Exhale. The amber light pulses. The Figure 
 
 The portal exhales. The heat. The pressure. The pause. The second and a half of silence.
 
-You could step forward. Into the nothing. Into the absence. But you don't have what you need to survive it, or to close it, or to do anything except fall.
+{has_gloria_medallion: You could step forward. The disc is warm against your chest. You can't close the portal. You don't have the ritual. But the disc hums against the portal's rhythm, pushing back. Gloria said the deep tunnels felt quieter when her father wore it.}
+{not has_gloria_medallion: You could step forward. Into the nothing. Into the absence. But you don't have what you need to survive it, or to close it, or to do anything except fall.}
 
 The Figure watches. It doesn't move. It doesn't beckon. It just stands on the other side of something you can't cross.
 
@@ -249,7 +250,12 @@ You don't have the key. You don't have the path. But you're here. You made it to
     {has_symbol_knowledge || has_mara_recording || has_mara_pages: {~ has_investigation_gated = true} }
     {daylight_evidence_count >= 3 && has_investigation_gated: -> daylight_ending}
     -> daylight_ending_diminished
-* [Step forward.]
+* {has_gloria_medallion} [Step forward. Hold the disc.]
+    The disc vibrates against your chest. The counter-frequency pushes back against the portal's pull. Not enough to close it. Enough to cross it.
+    You step off the edge.
+    The Figure watches.
+    -> other_side_ending
+* {not has_gloria_medallion} [Step forward.]
     You step off the edge.
     The amber light swallows you. The hum swallows you. The heat and the nothing and the absence.
     You fall. Or descend. Or are taken.

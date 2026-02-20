@@ -1,5 +1,7 @@
 # buried_ending.ink: Prose Draft
 
+=== buried_ending ===
+
 = at_the_portal
 
 The carvings here are older than the ones above. Older than the mine, older than the corridors, older than any tool that cut them. They cover the chamber walls floor to ceiling: concentric arcs, angular intersections, each symbol interlocking with the next in a continuous circuit. The containment pattern. The original. Not fragments, not copies, not the traced maintenance lines in the upper tunnels. The source.
@@ -53,7 +55,7 @@ You stop. Flatten against the wall. The heat spikes. The sulfur hits the back of
 
 * [Hold on.]
 
-It passes.
+- It passes.
 
 The pause. You move. Back to the fracture. The key against the stone. The groove deepens. The line extends, connecting the broken arc to the intact one on the far side. The containment pattern is in your hands. Not in your notebook. Not in language. In the movement itself. The sequence your fingers know. Your hand follows the curve without hesitation, the angle of intersection, the correct direction to close the arc. Muscle memory. The one thing that lives below what the mine can reach.
 
@@ -79,7 +81,7 @@ The portal exhales.
 
 * [Hold on.]
 
-The pause.
+- The pause.
 
 * [Move.]
 
@@ -91,7 +93,7 @@ Window. Scream. Reset.
 
 * [Keep going.]
 
-Inch by inch.
+- Inch by inch.
 
 The portal exhales.
 
@@ -192,15 +194,15 @@ Her face has changed.
 
 She knows.
 
-{has_gloria_medallion: You reach inside your shirt. The chain. The disc. Martin Aldrich's medallion. You've worn it against your chest since this morning. It's warm from your skin.
+{has_gloria_medallion: You reach inside your shirt. The chain. The disc. Martin Aldrich's medallion. You've worn it against your chest since this morning. It's warm from your skin.}
 
-You take it off. Set it on the counter.
+{has_gloria_medallion: You take it off. Set it on the counter.}
 
-Gloria looks at it. Her hand moves to it slowly. She picks it up. Holds it in her palm. The chain pools between her fingers.
+{has_gloria_medallion: Gloria looks at it. Her hand moves to it slowly. She picks it up. Holds it in her palm. The chain pools between her fingers.}
 
-"He wore this every shift," she says. Quiet. Not to you. To the medallion. To him. "Thirty years. Every shift."
+{has_gloria_medallion: "He wore this every shift," she says. Quiet. Not to you. To the medallion. To him. "Thirty years. Every shift."}
 
-She closes her hand around the medallion and puts it in her apron pocket.}
+{has_gloria_medallion: She closes her hand around the medallion and puts it in her apron pocket.}
 
 Gloria pours two cups of coffee. She sits with you and wraps her hands around her mug.
 
