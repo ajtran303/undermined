@@ -14,7 +14,7 @@ The evidence is on the passenger seat. What there is of it.
 {has_dale_file: A printout of Dale Ruskin's employee record, twenty-seven identical reviews.}
 {has_census_data: Population figures. Zero, then forty-seven, then fifty-four. Nobody leaves.}
 
-Public records. Library documents. Things anyone could pull from a county archive or a microfiche reader in a small-town library on a Tuesday afternoon.
+{has_horrorco_filing || has_census_data: Public records. Library documents. Things anyone could pull from a county archive or a microfiche reader in a small-town library on a Tuesday afternoon.}
 
 Nothing from inside the mine. Nothing that can't be explained as paperwork and a bad week.
 
@@ -59,7 +59,7 @@ You drive toward it.
 
 = diminished_order
 
-The Order's Las Vegas field office. Strip mall. The sign says Pacific West Research Associates. The door is frosted glass.
+The Order's Las Vegas field office. The sun bleached strip mall sign says Pacific West Research Associates. The door is frosted glass.
 
 You park Gloria's truck. You sit for a moment. Hands on the wheel. The desert sun is high and white and the parking lot shimmers.
 
@@ -79,17 +79,19 @@ You stand at the counter. One second. Two. Three.
 
 She looks up again. The same slide. Then something engages: not recognition, but professionalism. The trained reflex of someone who handles walk-ins. She types. Checks the system.
 
-"I'm not finding a Val Rowan in our directory." Her voice is polite. Patient. "Can you spell the last name?"
+"Do you have an appointment?"
 
-You spell it.
+"I'm on active assignment. Check your system. Val Rowan. Veinrock, Nevada."
 
-She types. Checks. Shakes her head.
+She types. Her expression doesn't change.
 
-"I'm sorry. We don't have an agent by that name. And I'm not seeing an active assignment for..." She checks the screen again. "Veinrock?"
+"I'm not finding that name." Polite. Patient. "And... Veinrock?"
 
 "It's a town. In Nevada. About four hours north."
 
-She types. Checks. The same small headshake. "I'm not finding that either. Can I ask who referred you to our office?"
+She types. The same check. The same nothing.
+
+"I don't have anything under that either. Is there someone specific you're here to see?"
 
 "Silas. I need to speak with Silas."
 
@@ -114,11 +116,11 @@ He does not extend his hand.
 
 "I'm Silas. Can I help you?"
 
-Your name is in your mouth. Your assignment. Your case number. The words you've said to this man at the start of every debrief for the last two years. You've sat across from him in his office and told him things that couldn't be true and he believed you every time because that was the work, that was the mission, and the mission required believing the impossible.
+Your name is in your mouth. Your assignment. Your case number. The words you've said to this man at the start of every debrief for the last three years. You've sat across from him in his office and told him things that couldn't be true and he believed you every time because that was the work, that was the mission, and the mission required believing the impossible.
 
 "Val Rowan," you say. "You assigned me to Veinrock five days ago. Missing agent, Mara Castillo. You gave me the case file in this office."
 
-Silas's face does not change. That is the worst part. The expression that forms is not hostile. Not skeptical. Not confused. It is attentive. Neutral. Designed to give the person nothing to react against. You've seen it deployed on walk-ins who claim they've seen ghosts. On family members of missing persons who show up unannounced. On people the Order needs to manage without confrontation.
+The expression that forms is designed to give you nothing to react against. You've seen it deployed on walk-ins who claim they've seen ghosts. On family members of missing persons who show up unannounced. On people the Order needs to manage without confrontation.
 
 Managing.
 
@@ -141,7 +143,7 @@ The mine. The attraction. The portal underneath. The hum that started the first 
 
 Silas listens.
 
-He nods in the right places. The places where a listener nods. Not the places where Silas nods. Silas interrupts. Silas asks for clarification. Silas says "that's consistent with" and cross-references field reports from the seventies. This Silas doesn't do any of that. This Silas performs listening. The front maintained. The surface intact. You've seen this performance before. At a clipboard desk under fluorescent lights.
+He nods in the right places. The places where a listener nods. Not the places where Silas nods. Performative listening. The surface maintained. The front intact. You've seen this before. At a clipboard desk under fluorescent lights.
 
 He doesn't challenge anything. Doesn't say "that's impossible." Doesn't say "we don't have a file on Veinrock." Doesn't say "I've never seen you before." He just listens. Professional. Attentive. The careful posture of someone who doesn't want the person across the desk to escalate.
 
@@ -150,17 +152,17 @@ He doesn't challenge anything. Doesn't say "that's impossible." Doesn't say "we 
     {has_horrorco_filing: The HorrorCo incorporation filing. June 22, 1973. One week after the sinkhole.}
     {has_dale_file: Dale Ruskin's employee record. Twenty-seven identical performance reviews. Zero sick days across twenty-seven years.}
     {has_census_data: Population data. Zero in 1975. Forty-seven in 1999. Fifty-four in 2020. Nobody dies. Nobody leaves.}
-    Silas looks at the documents. He does not pick them up.
-    "These are publicly available records." He says it gently. No accusation. No judgment. "County filings, census data. Is there anything from inside the mine itself? Photographs, recordings, material evidence?"
+    Silas looks at the so-called evidence. He does not pick it up.
+    "Publicly available records." He says it gently. No accusation. No judgment. "Is there anything from inside the mine itself? Photographs, recordings, material evidence?"
 }
 
 {not has_horrorco_filing && not has_dale_file && not has_census_data: You don't have documents. You have impressions. Observations. The hum you can no longer feel, the copper taste that's already fading, the way people's eyes slid past you in a town that no longer exists in your rearview mirror. Silas nods. The front holds. He writes something on a notepad. You can't read it upside down.}
 
-"Silas." You lean forward. "You know me. We've worked together for two years. You sent me to Veinrock. You gave me the file on Mara Castillo. We spoke on the phone three days ago. The static was bad, the connection kept cutting out, but you told me..."
+"Silas." You lean forward. "You know me. We've worked together for three years. You sent me to Veinrock. You gave me the file on Mara Castillo. We spoke on the phone three days ago. The static was bad, the connection kept cutting out, but you told me..."
 
 "I understand you believe we have."
 
-Five words. Delivered without inflection. Not unkind. Not dismissive. The careful, calibrated statement of a person who does not share your reality and has decided not to argue with yours.
+Five words. Delivered without inflection. He doesn't share your reality and has decided not to argue.
 
 He stands. Extends his hand.
 
@@ -181,7 +183,7 @@ He opens the office door.
 
 The receptionist doesn't look up as you pass.
 
-The door closes behind you. Frosted glass. Pacific West Research Associates. The parking lot.
+The door closes behind you. Frosted glass. Pacific West Research Associates. Down the stairs. The parking lot.
 
 Las Vegas afternoon. The sun on the asphalt. A car alarm going off somewhere across the lot. Traffic on the street, moving, continuous, the sound of a city that has no idea what's underneath a mine in the Nevada desert. The world continuing.
 
@@ -204,12 +206,12 @@ The evidence isn't the problem.
 }
 
 {erasure_level < 7:
-    You have no explanation for what just happened. Silas knew you. Silas has always known you. Two years of field reports, phone calls, debriefings in that office with the stuck filing cabinet and the parking lot view. You sat in that chair last month and told him about the Castillo assignment and he said "be careful" and he meant it.
+    You have no explanation for what just happened. Silas knew you. Silas has always known you. Three years of field reports, phone calls, debriefings in that office with the stuck filing cabinet and the parking lot view.
     He introduced himself.
     The erasure followed you out. Not the kind you can see. Your hands are solid, your reflection works, your shadow falls where it should. But the part of you that existed in other people's knowledge, the part that lived in Silas's memory and the receptionist's directory and the Order's records. That part didn't survive the drive. You have no evidence of the evidence. No proof that the proof was ever real.
 }
 
-Gloria's truck is in the parking lot. The blue Ford, third row, between a white sedan and a pickup with a contractor's logo. Paint gone chalky. Dent in the bumper. The floor mat is where the keys were, six hours ago, when you turned the ignition and drove out of a town that was already disappearing.
+Gloria's truck is in the parking lot. Paint gone chalky. Dent in the bumper. The floor mat is where the keys were, six hours ago, when you turned the ignition and drove out of a town that was already disappearing.
 
 You sit in the driver's seat. You sit there for a long time.
 
@@ -226,7 +228,5 @@ You drive.
 Where is unresolved. The Order isn't an option anymore. The apartment you rented before the assignment might still be yours, or might not. The lease might have your name on it, or the landlord might open the door and say "Can I help you?" the way Silas said it. The bank account. The phone number. The ID in your wallet. All of it might work or none of it might work and you won't know until you try and you're not ready to try.
 
 You drive.
-
-Gloria's truck. The desert. The road.
 
 -> DONE
