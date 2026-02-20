@@ -96,7 +96,7 @@ She walks toward you. Steady. Her boots on the stone. She stops at the edge of y
 
 * "Gloria's father. Martin Aldrich."
 
-"I know who Martin Aldrich is." She touches the edge of the cool zone. Her hand crosses into it and she breathes. A short, sharp inhale. "I've been reading his carvings for a month."
+- "I know who Martin Aldrich is." She touches the edge of the cool zone. Her hand crosses into it and she breathes. A short, sharp inhale. "I've been reading his carvings for a month."
 
 {has_mara_recording: Day eight. "The fear is not a byproduct. It's the product." You heard her voice on the recorder in Gloria's back room and now she's standing in front of you. The same person. The same voice. Thirty-one days past that recording and still working.}
 
@@ -161,7 +161,7 @@ Mara stops. She turns. She sees it in your face.
 
 * "Go."
 
-"I can't. The ward is the only..."
+- "I can't. The ward is the only..."
 
 * "The motel. Room 6."
 
