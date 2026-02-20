@@ -2,7 +2,7 @@
 
 = taking_the_truck_diminished
 
-Gloria's truck. The cab smells like dust and coffee and something faintly floral that might be an air freshener from 2003.
+Gloria's truck. A Ford. Blue paint gone chalky. The cab smells like dust and coffee and something faintly floral that might be an air freshener from 2003.
 
 You pull out of the lot. The road runs straight through Veinrock's main street and then straight out of town, a two-lane blacktop that cuts through desert scrub toward the highway. The mine is in the rearview mirror. The building. The parking lot. The mountain.
 
@@ -37,7 +37,7 @@ You pull over. Engine idling. Desert in every direction. Nothing behind you but 
 
 It's gone.
 
-Something loosens in your chest. The pressure you've been carrying for six days, the weight behind your sternum that you stopped noticing because it was always there. Gone. You breathe and the breath goes in and comes back out and nothing pulls at it.
+Something loosens in your chest. The pressure you've been carrying for five days, the weight behind your sternum that you stopped noticing because it was always there. Gone. You breathe and the breath goes in and comes back out and nothing pulls at it.
 
 Maybe it's over. Maybe leaving was enough. Maybe the evidence will be enough.
 
@@ -59,7 +59,7 @@ You drive toward it.
 
 = diminished_order
 
-The Order's Las Vegas field office is on the second floor of a medical plaza off Eastern Avenue. Pacific West Research Associates. Frosted glass. Suite 204.
+The Order's Las Vegas field office. Strip mall. The sign says Pacific West Research Associates. The door is frosted glass.
 
 You park Gloria's truck. You sit for a moment. Hands on the wheel. The desert sun is high and white and the parking lot shimmers.
 
@@ -116,7 +116,7 @@ He does not extend his hand.
 
 Your name is in your mouth. Your assignment. Your case number. The words you've said to this man at the start of every debrief for the last two years. You've sat across from him in his office and told him things that couldn't be true and he believed you every time because that was the work, that was the mission, and the mission required believing the impossible.
 
-"Val Rowan," you say. "You assigned me to Veinrock six days ago. Missing agent, Mara Castillo. You gave me the case file in this office."
+"Val Rowan," you say. "You assigned me to Veinrock five days ago. Missing agent, Mara Castillo. You gave me the case file in this office."
 
 Silas's face does not change. That is the worst part. The expression that forms is not hostile. Not skeptical. Not confused. It is attentive. Neutral. Designed to give the person nothing to react against. You've seen it deployed on walk-ins who claim they've seen ghosts. On family members of missing persons who show up unannounced. On people the Order needs to manage without confrontation.
 
@@ -181,13 +181,13 @@ He opens the office door.
 
 The receptionist doesn't look up as you pass.
 
-The door closes behind you. The frosted glass. Pacific West Research Associates. The corridor, the elevator, the parking lot.
+The door closes behind you. Frosted glass. Pacific West Research Associates. The parking lot.
 
 Las Vegas afternoon. The sun on the asphalt. A car alarm going off somewhere across the lot. Traffic on the street, moving, continuous, the sound of a city that has no idea what's underneath a mine in the Nevada desert. The world continuing.
 
 You stand in the parking lot.
 
-The case you built on the drive is gone. Not the conversation you had. The argument, the evidence, the clear and structured presentation. None of it mattered. Not because Silas didn't believe you. Because Silas didn't know you. Because you walked into an office where you've sat a hundred times and the man behind the desk introduced himself.
+The case you built on the drive is gone. That was not the conversation you had. The argument, the evidence, the clear and structured presentation. None of it mattered. Not because Silas didn't believe you. Because Silas didn't know you. Because you walked into an office where you've sat a hundred times and the man behind the desk introduced himself.
 
 The evidence isn't the problem.
 
@@ -199,7 +199,7 @@ The evidence isn't the problem.
     You go back to the top. Scroll slowly. Every name, every photograph. Two hundred and fourteen field agents in the western division.
     Your name is not there. Your photo is not there.
     You are not an agent. You are not on assignment. You are nobody the Order sent to Veinrock, Nevada, because Veinrock, Nevada does not appear in any database the Order maintains, and neither do you.
-    The erasure didn't stop at Veinrock's town limits. It followed you out. It followed you down the highway and across the desert and into a medical plaza off Eastern Avenue and it was already here when you arrived. It was here before you arrived. It was always going to be here.
+    The erasure didn't stop at Veinrock's town limits. It followed you out. It followed you down the highway and across the desert and into a strip mall in Las Vegas and it was already here when you arrived. It was here before you arrived. It was always going to be here.
     The mine doesn't have a perimeter.
 }
 
@@ -209,7 +209,7 @@ The evidence isn't the problem.
     The erasure followed you out. Not the kind you can see. Your hands are solid, your reflection works, your shadow falls where it should. But the part of you that existed in other people's knowledge, the part that lived in Silas's memory and the receptionist's directory and the Order's records. That part didn't survive the drive. You have no evidence of the evidence. No proof that the proof was ever real.
 }
 
-Gloria's truck is in the parking lot. Third row, between a white sedan and a pickup with a contractor's logo. The paint is faded. The bumper has a dent. The floor mat is where the keys were, six hours ago, when you turned the ignition and drove out of a town that was already disappearing.
+Gloria's truck is in the parking lot. The blue Ford, third row, between a white sedan and a pickup with a contractor's logo. Paint gone chalky. Dent in the bumper. The floor mat is where the keys were, six hours ago, when you turned the ignition and drove out of a town that was already disappearing.
 
 You sit in the driver's seat. You sit there for a long time.
 
