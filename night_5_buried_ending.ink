@@ -22,7 +22,7 @@ Hold on.
 
 The exhale passes. The pressure drops. The portal draws inward. One second. Maybe less than a second. The window between breaths.
 
-You reach into your jacket pocket. The keys. Heavy, real, the fob smooth under your thumb. Keys to a car that doesn't exist anymore. The parking spot at the motel has been clean asphalt for two days. No oil stain. No tire marks. The car is gone the way everything goes in Veinrock: completely, as if it was never there.
+You reach into your jacket pocket. The key. Heavy, real, the fob smooth under your thumb. A key to a car that doesn't exist anymore. The parking spot at the motel has been clean asphalt for two days. No oil stain. No tire marks. The car is gone the way everything goes in Veinrock: completely, as if it was never there.
 
 The metal edge of the key is sufficient. Not for carving from scratch. For scoring existing stone, for deepening a groove that's already started, for completing a line that someone else began. You don't need to build the lock. You need to close it.
 
