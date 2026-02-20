@@ -163,7 +163,7 @@ You stand at the edge. The Figure stands opposite. Between you, the thing that h
 // 3. Buried only
 // 4. Default (neither)
 
-{has_ritual_knowledge && has_mara_pages && (has_symbol_knowledge || has_portal_mechanics) && erasure_level < 8: -> portal_choice}
+{has_ritual_knowledge && has_mara_pages && (has_symbol_knowledge || has_portal_mechanics): -> portal_choice}
 {not has_ritual_knowledge && has_mara_pages && (has_symbol_knowledge || has_portal_mechanics) && erasure_level < 8: -> other_side_ending}
 {has_ritual_knowledge: -> buried_ending}
 -> night_5_descent_default
