@@ -382,7 +382,7 @@ You open the scheduling program. Employee directory. Search.
 
 Mara Castillo. No results.
 
-Elena Voss. No results.
+Her cover name: Elena Voss. No results.
 
 You try a broader search. All employees hired in the past two months. A list comes up: twelve names. You recognize a few from tonight's briefing. Your name is there. Val Rowan, hired today.
 
