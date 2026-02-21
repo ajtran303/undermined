@@ -1,6 +1,6 @@
 # Undermined
 
-#### Video Demo: <URL HERE>
+#### Video Demo: [CS50 Final Project - Undermined](https://youtu.be/gNoYYujQQXM)
 
 #### Play it: [https://undermined.onrender.com/](https://undermined.onrender.com/)
 
