@@ -502,7 +502,11 @@ Below the handprint, scratched into the stone with something sharp: an arrow. Po
 
 {not has_symbol_knowledge: Mara's handwriting. Another page from her notebook. She was mapping these symbols across the mine, leaving copies of her work like breadcrumbs.}
 
-{not has_symbol_knowledge: You fold it carefully and pocket it. {~ has_symbol_knowledge = true} {~ mara_clues += 1} }
+{not has_symbol_knowledge: 
+You fold it carefully and pocket it. 
+~ has_symbol_knowledge = true
+~ mara_clues += 1
+}
 
 {has_symbol_knowledge: You already have Mara's diagram from the maintenance tunnel. But here, beside the arrow, you can see where she pressed her hand against the wall while she worked. The copper dust holds her print perfectly. She stood exactly where you're standing.}
 

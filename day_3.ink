@@ -64,19 +64,23 @@ Static. Then, distantly, Silas's voice. Like he's talking from the bottom of a w
 
 You tell him about Night 2. {has_symbol_knowledge: The maintenance tunnel, the symbols, Mara's notebook page.} {not has_symbol_knowledge: The Shaft, the figure appearing closer.} The motel room resetting itself this morning.
 
-{silas_trust >= 4: The static clears. Just for a moment, like Silas is pushing through it by sheer force of will.}
+{ silas_trust >= 4:
+The static clears. Just for a moment, like Silas is pushing through it by sheer force of will.
 
-{silas_trust >= 4: "Listen. I found something. The Order's archives. There's a file on the Aldrich Mine predating the sinkhole. One of our field agents investigated the site in 1971. Two years before the collapse."}
+"Listen. I found something. The Order's archives. There's a file on the Aldrich Mine predating the sinkhole. One of our field agents investigated the site in 1971. Two years before the collapse."
 
-{silas_trust >= 4: Your pulse quickens. "What did they find?"}
+Your pulse quickens. "What did they find?"
 
-{silas_trust >= 4: "The miners had been reporting anomalies for months. Warm air from below. Equipment malfunctioning. And sounds. A hum." His voice is strained, fighting the static. "The agent's report describes carvings in the deepest tunnels. Symbols. He sketched a few of them. Val, the report says they were consistent with containment sigils. Whoever carved them wasn't worshipping something. They were keeping something shut." {~ has_portal_mechanics = true} }
+"The miners had been reporting anomalies for months. Warm air from below. Equipment malfunctioning. And sounds. A hum." His voice is strained, fighting the static. "The agent's report describes carvings in the deepest tunnels. Symbols. He sketched a few of them. Val, the report says they were consistent with containment sigils. Whoever carved them wasn't worshipping something. They were keeping something shut."
 
-{silas_trust >= 4: "The agent recommended sealing the lower shaft. The Order filed the report and... nothing. No follow-up. Two years later, forty-eight men died."}
+~ has_portal_mechanics = true
 
-{silas_trust >= 4: The static surges.}
+"The agent recommended sealing the lower shaft. The Order filed the report and... nothing. No follow-up. Two years later, forty-eight men died."
 
-{silas_trust >= 4: "The symbols Mara found. If they're the same ones... the portal isn't new. It's been down there for a long time. Someone tried to contain it. And in 1973, the containment failed."}
+The static surges.
+
+"The symbols Mara found. If they're the same ones... the portal isn't new. It's been down there for a long time. Someone tried to contain it. And in 1973, the containment failed."
+}
 
 {silas_trust < 4: The static is worse than yesterday. You catch fragments.}
 
@@ -265,7 +269,12 @@ The diner is open. Gloria is behind the counter. She pours you coffee without a 
 
 The conversation is shorter today. She asks about your shifts. You give vague answers. She doesn't press.
 
-{gloria_trust == 2: She's warmer than before. Not open, but watching you differently. Like she's making up her mind about something. {~ gloria_trust += 1} }
+{gloria_trust == 2: 
+
+She's warmer than before. Not open, but watching you differently. Like she's making up her mind about something. 
+
+~ gloria_trust += 1
+}
 
 {gloria_trust < 2: She's polite but guarded. You're still a stranger who works at the place that swallowed her town.}
 

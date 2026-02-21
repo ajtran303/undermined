@@ -192,7 +192,10 @@ He said those exact words last night. Before the shift. In the same tone. With t
     "They were here before the mine. Before the town. Before anything." His voice changes register. Lower. More distant. "Someone carved them to hold it shut. A containment system. When the mine broke through in '73, the carvings cracked. Not all of them. Enough."
     He pauses. Repeats: "Not all of them. Enough."
     A loop. Then the voice shifts again: "The ones that survived, someone's been maintaining them. Tracing the lines. For years."
-    {not has_portal_mechanics: The carvings predate the mine. They were containment. The mine broke them. Someone has been repairing them. You're hearing the history Silas couldn't give you. Not from archives. From the source. From the system itself, speaking through the mouth of its manager. {~ has_portal_mechanics = true} }
+    {not has_portal_mechanics: 
+    The carvings predate the mine. They were containment. The mine broke them. Someone has been repairing them. You're hearing the history Silas couldn't give you. Not from archives. From the source. From the system itself, speaking through the mouth of its manager. 
+    ~ has_portal_mechanics = true
+    }
     {has_portal_mechanics: You already know this. Silas told you about the 1971 report. But hearing Dale confirm it is different. Dale isn't reading from a file. Dale was there.}
     -> dale_encounter_end
 
@@ -226,7 +229,10 @@ You sit.
 
 {has_escape_route: "The truck is ready. I filled the tank this morning. Keys are under the mat." She says this the way she says everything: flat, certain, the words already weighed and measured before they left her mouth. She committed to this yesterday. Today she's following through.}
 
-{not has_escape_route: "I've been thinking." She puts a coffee cup in front of you without pouring. "All night. About what you told me. About the mine. About Mara." She pauses. "My truck is behind the diner. I filled the tank this morning. Keys are under the floor mat. If tonight goes wrong. If you need to run. Take it." {~ has_escape_route = true} }
+{not has_escape_route: 
+"I've been thinking." She puts a coffee cup in front of you without pouring. "All night. About what you told me. About the mine. About Mara." She pauses. "My truck is behind the diner. I filled the tank this morning. Keys are under the floor mat. If tonight goes wrong. If you need to run. Take it."
+has_escape_route = true
+}
 
 {ate_meatloaf: She puts a plate in front of you. Meatloaf. Same as before. "Eat something. You look like you haven't eaten in days."}
 
@@ -244,7 +250,10 @@ The disc is heavy for its size. On one face, a symbol: concentric arcs intersect
 
 {has_symbol_knowledge: You recognize the symbol. Mara's diagram. The carvings on the tunnel walls. The same pattern, reduced to its smallest element, cast in metal by an engineer who found it in the deep tunnels and understood what it meant. He wore it every day. A portable containment ward.}
 
-{not has_symbol_knowledge: You've seen this before. Last night, in the tunnels, scratched into the walls. The same language. The same shapes. But those were carved into stone that cracks and wears. This is cast in metal. Permanent. A containment fragment you can carry in your pocket. {~ has_symbol_knowledge = true} }
+{not has_symbol_knowledge: 
+You've seen this before. Last night, in the tunnels, scratched into the walls. The same language. The same shapes. But those were carved into stone that cracks and wears. This is cast in metal. Permanent. A containment fragment you can carry in your pocket.
+~ has_symbol_knowledge = true
+}
 
 "He wasn't superstitious. He was an engineer. But he said the deep tunnels felt different when he wore it. Quieter." Gloria's voice is steady. Her hands are not. "I don't know if it does anything. But it's the only thing I have left of him that isn't paper. And I want you to have it."
 
@@ -322,7 +331,12 @@ Truck keys. She puts them on the counter between you. "My truck's behind the din
 
 {not has_mara_recording: "Day eight. The attraction isn't just built on top of something. It's built to feed something. The fear. The guests' fear. It's not a byproduct. It's the product. Every scream, every panic response. It all goes down. Into the portal."}
 
-{not has_mara_recording: You stop the recording. {~ has_mara_recording = true} {~ mara_clues += 1} }
+{not has_mara_recording: 
+You stop the recording. 
+
+~ has_mara_recording = true
+~ mara_clues += 1
+}
 
 {has_mara_recording: She doesn't have anything else to give. The recorder is already in your pocket. But the truck is new. The truck is Gloria committing.}
 
@@ -351,7 +365,11 @@ But in the rock face flanking the entrance, visible in the photograph the way a 
 
 {has_symbol_knowledge: You recognize them. The same symbols from Mara's diagram. The same marks you found in the tunnels. The containment carvings, visible in a photograph taken a year before the sinkhole. They were intact then. Unbroken. The full system, working.}
 
-{not has_symbol_knowledge: You've seen those marks. Last night, in the tunnels. Scratched into stone, deep underground. But here they are at the surface, framing the mine entrance, carved into the rock face a year before everything collapsed. A system. Intact. Whatever they were holding shut, they were holding it. {~ has_symbol_knowledge = true} }
+{not has_symbol_knowledge:
+You've seen those marks. Last night, in the tunnels. Scratched into stone, deep underground. But here they are at the surface, framing the mine entrance, carved into the rock face a year before everything collapsed. A system. Intact. Whatever they were holding shut, they were holding it.
+
+~ has_symbol_knowledge = true
+}
 
 "That's my father," Gloria says. "That's the mine before." Before the sinkhole. Before the forty-eight men. Before everything.
 
@@ -373,7 +391,11 @@ The diner. Gloria. Coffee.
 
 She pours you a cup without asking. Stands behind the counter. Watches you the way she watches everyone who comes in: carefully, from a distance.
 
-{not ate_meatloaf: She puts a plate of meatloaf down without being asked. You didn't order it. She doesn't explain it. You eat it and you don't know why it matters, but it does. The food has flavor. The coffee is hot. The diner is warm. Outside the mine, things are still real. {~ ate_meatloaf = true} }
+{not ate_meatloaf: 
+She puts a plate of meatloaf down without being asked. You didn't order it. She doesn't explain it. You eat it and you don't know why it matters, but it does. The food has flavor. The coffee is hot. The diner is warm. Outside the mine, things are still real.
+
+~ ate_meatloaf = true
+}
 
 {ate_meatloaf: She doesn't offer food. Coffee. The counter. Silence.}
 
@@ -499,15 +521,33 @@ You know what you're looking for. You work fast.
 ~ daylight_evidence_count = 0
 ~ has_investigation_gated = false
 
-{has_symbol_knowledge: {~ daylight_evidence_count += 1} }
-{has_horrorco_filing: {~ daylight_evidence_count += 1} }
-{has_mara_recording: {~ daylight_evidence_count += 1} }
-{has_dale_file: {~ daylight_evidence_count += 1} }
-{has_census_data: {~ daylight_evidence_count += 1} }
-{has_mara_pages: {~ daylight_evidence_count += 1} }
-{has_symbol_knowledge: {~ has_investigation_gated = true} }
-{has_mara_recording: {~ has_investigation_gated = true} }
-{has_mara_pages: {~ has_investigation_gated = true} }
+{has_symbol_knowledge:
+~ daylight_evidence_count += 1
+}
+{has_horrorco_filing:
+~ daylight_evidence_count += 1
+}
+{has_mara_recording:
+~ daylight_evidence_count += 1
+}
+{has_dale_file:
+~ daylight_evidence_count += 1
+}
+{has_census_data:
+~ daylight_evidence_count += 1
+}
+{has_mara_pages:
+~ daylight_evidence_count += 1
+}
+{has_symbol_knowledge:
+~ has_investigation_gated = true
+}
+{has_mara_recording:
+~ has_investigation_gated = true
+}
+{has_mara_pages:
+~ has_investigation_gated = true
+}
 
 {daylight_evidence_count >= 3 && has_investigation_gated: -> daylight_qualified}
 {daylight_evidence_count >= 3 && not has_investigation_gated: -> daylight_unqualified}

@@ -241,13 +241,27 @@ You don't have the key. You don't have the path. But you're here. You made it to
     Gloria's truck. Keys under the mat. The engine turns over.
     ~ daylight_evidence_count = 0
     ~ has_investigation_gated = false
-    {has_symbol_knowledge: {~ daylight_evidence_count += 1} }
-    {has_horrorco_filing: {~ daylight_evidence_count += 1} }
-    {has_mara_recording: {~ daylight_evidence_count += 1} }
-    {has_dale_file: {~ daylight_evidence_count += 1} }
-    {has_census_data: {~ daylight_evidence_count += 1} }
-    {has_mara_pages: {~ daylight_evidence_count += 1} }
-    {has_symbol_knowledge || has_mara_recording || has_mara_pages: {~ has_investigation_gated = true} }
+    {has_symbol_knowledge:
+    ~ daylight_evidence_count += 1
+    }
+    {has_horrorco_filing:
+    ~ daylight_evidence_count += 1
+    }
+    {has_mara_recording:
+    ~ daylight_evidence_count += 1
+    }
+    {has_dale_file:
+    ~ daylight_evidence_count += 1
+    }
+    {has_census_data:
+    ~ daylight_evidence_count += 1
+    }
+    {has_mara_pages:
+    ~ daylight_evidence_count += 1
+    }
+    {has_symbol_knowledge || has_mara_recording || has_mara_pages:
+    ~ has_investigation_gated = true
+    }
     {daylight_evidence_count >= 3 && has_investigation_gated: -> daylight_ending}
     -> daylight_ending_diminished
 * {has_gloria_medallion} [Step forward. Hold the disc.]
