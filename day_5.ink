@@ -319,20 +319,20 @@ Truck keys. She puts them on the counter between you. "My truck's behind the din
 
 ~ has_escape_route = true
 
-{not has_mara_recording: And a recorder. Small, handheld, scratched. She sets it next to the keys.}
+{not has_mara_recording:
+And a recorder. Small, handheld, scratched. She sets it next to the keys.
 
-{not has_mara_recording: "The woman who was here before you. Mara." Gloria touches the recorder with one finger. "She left this. She gave it to me the last time I saw her. Asked me to hold onto it. I've had it in a drawer under the register for weeks. Didn't know who to give it to."}
+"The woman who was here before you. Mara." Gloria touches the recorder with one finger. "She left this. She gave it to me the last time I saw her. Asked me to hold onto it. I've had it in a drawer under the register for weeks. Didn't know who to give it to."
 
-{not has_mara_recording: She looks at you. "Now I know."}
+She looks at you. "Now I know."
 
-{not has_mara_recording: You pick up the recorder. Press play.}
+You pick up the recorder. Press play.
 
-{not has_mara_recording: Mara's voice. Steady, professional, fraying at the edges. Recorded in a dark place. The hum is audible in the background.}
+Mara's voice. Steady, professional, fraying at the edges. Recorded in a dark place. The hum is audible in the background.
 
-{not has_mara_recording: "Day eight. The attraction isn't just built on top of something. It's built to feed something. The fear. The guests' fear. It's not a byproduct. It's the product. Every scream, every panic response. It all goes down. Into the portal."}
+"Day eight. The attraction isn't just built on top of something. It's built to feed something. The fear. The guests' fear. It's not a byproduct. It's the product. Every scream, every panic response. It all goes down. Into the portal."
 
-{not has_mara_recording: 
-You stop the recording. 
+You stop the recording.
 
 ~ has_mara_recording = true
 ~ mara_clues += 1

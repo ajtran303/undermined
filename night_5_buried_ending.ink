@@ -192,15 +192,17 @@ Her face has changed.
 
 She knows.
 
-{has_gloria_medallion: You reach inside your shirt. The chain. The disc. Martin Aldrich's medallion. You've worn it against your chest since this morning. It's warm from your skin.}
+{has_gloria_medallion:
+You reach inside your shirt. The chain. The disc. Martin Aldrich's medallion. You've worn it against your chest since this morning. It's warm from your skin.
 
-{has_gloria_medallion: You take it off. Set it on the counter.}
+You take it off. Set it on the counter.
 
-{has_gloria_medallion: Gloria looks at it. Her hand moves to it slowly. She picks it up. Holds it in her palm. The chain pools between her fingers.}
+Gloria looks at it. Her hand moves to it slowly. She picks it up. Holds it in her palm. The chain pools between her fingers.
 
-{has_gloria_medallion: "He wore this every shift," she says. Quiet. Not to you. To the medallion. To him. "Thirty years. Every shift."}
+"He wore this every shift," she says. Quiet. Not to you. To the medallion. To him. "Thirty years. Every shift."
 
-{has_gloria_medallion: She closes her hand around the medallion and puts it in her apron pocket.}
+She closes her hand around the medallion and puts it in her apron pocket.
+}
 
 Gloria pours two cups of coffee. She sits with you and wraps her hands around her mug.
 

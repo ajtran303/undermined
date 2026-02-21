@@ -578,11 +578,13 @@ The walk back to the motel. Stars. Cold. The hum.
 
 Room 6. The room accepted your existence today. Your bag is where you left it after re-unpacking this morning. Small comfort. You wonder if it will remember you tomorrow.
 
-{has_mara_recording: You take out the recorder. Press play. Mara's voice, low and steady.}
+{has_mara_recording:
+You take out the recorder. Press play. Mara's voice, low and steady.
 
-{has_mara_recording: "The attraction isn't just built on top of something. It's built to feed something. The fear. The guests' fear. It's not a byproduct. It's the product."}
+"The attraction isn't just built on top of something. It's built to feed something. The fear. The guests' fear. It's not a byproduct. It's the product."
 
-{has_mara_recording: On a slow night, with a thin crowd and half the zones running on skeleton crew, the machine still ran. Still harvested. Whatever is below this mine, it ate less tonight. But it still ate.}
+On a slow night, with a thin crowd and half the zones running on skeleton crew, the machine still ran. Still harvested. Whatever is below this mine, it ate less tonight. But it still ate.
+}
 
 {service_corridor: The symbols in the service corridor. {visited_restricted_passage: Larger than the ones in the maintenance tunnel. Older.} And someone is adding to them.}
 

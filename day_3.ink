@@ -82,13 +82,15 @@ The static surges.
 "The symbols Mara found. If they're the same ones... the portal isn't new. It's been down there for a long time. Someone tried to contain it. And in 1973, the containment failed."
 }
 
-{silas_trust < 4: The static is worse than yesterday. You catch fragments.}
+{silas_trust < 4:
+The static is worse than yesterday. You catch fragments.
 
-{silas_trust < 4: "...records on HorrorCo... nothing... shell company goes back..."}
+"...records on HorrorCo... nothing... shell company goes back..."
 
-{silas_trust < 4: "Silas, I can barely hear you."}
+"Silas, I can barely hear you."
 
-{silas_trust < 4: "...be careful... the erasure is... accelerating..."}
+"...be careful... the erasure is... accelerating..."
+}
 
 The line dies. Not a click. Not a hang-up. The signal just stops, like a light going out.
 
