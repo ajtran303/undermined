@@ -1,5 +1,3 @@
-# buried_ending.ink: Prose Draft
-
 === buried_ending ===
 
 = at_the_portal
