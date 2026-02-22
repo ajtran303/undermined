@@ -176,7 +176,7 @@ She looks at her hands.
 
 "But no bodies?"
 
-"No bodies. No bones. No blood. Nothing. Forty-eight men, gone. Like they'd been erased."
+"No bodies. No bones. No blood. Nothing."
 
 ~ gloria_trust += 1
 ~ has_gloria_testimony = true
@@ -304,8 +304,6 @@ But there's a detail in the third paragraph that stops you.
 
 "Rescue teams reported that the main shaft, previously measured at 340 feet in depth, now extended beyond the reach of available sounding equipment. Foreman Bill Husted described the shaft as 'bottomless,' though county geologists attributed this to instrument malfunction."
 
-The mine got deeper when it collapsed.
-
 * [Keep reading.]
     The next issue, dated three weeks later, is mostly obituaries. Forty-eight names. Forty-eight families. The town's entire working-age male population.
     The final issue, September 1974, is a single page. VEINROCK POST OFFICE TO CLOSE. The last sentence reads: "No forwarding addresses were provided."
@@ -328,11 +326,8 @@ Incorporated in Delaware. June 22, 1973.
 
 One week after the sinkhole.
 
-HorrorCo was created seven days after forty-eight men vanished into the earth. Then it waited twenty-five years to come back and build on top of the hole.
-
 * [Look for any names on the incorporation documents.]
     The incorporator is listed as "M. Aldrich, Registered Agent." Aldrich, like the mine. {day_2_gloria || day_1_gloria: Like Gloria's family. But Gloria said her family left town after the collapse. Who is M. Aldrich?} {not day_2_gloria && not day_1_gloria: The same name as the mine. A relative of the original owners? Someone else entirely?}
-    ~ mara_clues += 1
     -> library_hub
 * [Note the dates and move on.]
     You write it down. Incorporated one week after the sinkhole. Purchased the land twenty-five years later. Whatever HorrorCo is, it's been planning this for a long time.
@@ -356,15 +351,13 @@ The 2020 directory. Population: 54. Same core names. Same addresses. A few more 
 
 In two decades, the town has gained seven people and lost zero.
 
-Nobody has died. Nobody has moved away. In a town of fifty people, over two decades, not a single person has left.
-
 {day_2_silas: Except the ones who vanished.}
 
 * [Check if any of the current residents match the 1970 names.]
     You compare the lists. None of the 1999 names appear in 1970. The old Veinrock and the new Veinrock share nothing except the name and Gloria Aldrich.
     -> library_hub
 * [Note it and move on.]
-    You write it down. A town where nobody leaves and nobody dies. That's not a town. That's something else.
+    You write it down. A town where nobody leaves and nobody dies.
     -> library_hub
 
 = library_end

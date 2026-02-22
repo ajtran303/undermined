@@ -76,7 +76,7 @@ Her voice carries in this space. Not echoing. Not distorted. Clear and immediate
 
 {mara_clues >= 2 && mara_clues < 4: The height. The build. The researcher's posture: weight balanced, eyes tracking, documenting even now. The same posture you saw in the Figure every night, stripped of the burlap and the mineral crust and the distance.}
 
-* "I'm Val."
+* "I'm... Val."
 
     She picks up the notebook. Tucks it into her jacket. "The cycles are consistent. I've been monitoring the exhale patterns. Seventeen-second cycles when I arrived. They've been compressing." She pauses. "What's the date?"
 
@@ -161,13 +161,7 @@ Mara stops. She turns. She sees it in your face.
 
 * "Go."
 
-- "I can't. The ward is the only..."
-
-* "The motel. Room 6."
-
-She stands there. The disc against her chest. The portal above. The exhale pushes down and the heat spikes and you both brace and hold through it. The pause.
-
-Mara looks at you. Then she turns. She walks to the place beneath the portal. She looks up. She waits for the pause between breaths.
+- Mara looks at you. Then she turns. She walks to the place beneath the portal. She looks up. She waits for the pause between breaths.
 
 The exhale comes. Passes.
 

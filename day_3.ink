@@ -142,15 +142,11 @@ A pause. The hum is audible in the background. Louder than you've ever heard it.
 
 Another pause. When she speaks again, her voice is different. Quieter.
 
-"I've seen something in the deep rooms. A figure. It stands in the corridor and watches me. I don't think it's a person. I think it's what's left of someone after the portal takes them. A residue. An echo."
-
 {priority == "find_mara": You grip the recorder tighter. She's describing exactly what you've seen. The figure. The one that might be her.}
 
-"Day nine. The erasure is accelerating. Gloria almost didn't recognize me today. My name was missing from the schedule. I'm running out of time."
+"Day nine. Gloria almost didn't recognize me today. My name was missing from the schedule. I'm..."
 
 The recording clicks. Silence.
-
-"Day ten. I've found the door. The real one. Below everything. I'm going through tomorrow."
 
 That's the last entry.
 
