@@ -257,7 +257,7 @@ The amber dims to a glow. To a suggestion. The stone cools under your feet.
 
 Mara did it. The disc, the carvings, thirty-one days of analysis, fifty years of accumulated knowledge passing through Gloria's hands and your hands into hers. The lock is closing. The lock is
 
--> DONE
+-> END
 
 
 = unprotected_crossing
@@ -301,4 +301,4 @@ Nobody seals the portal.
 
 Nobody gets out.
 
--> DONE
+-> END
