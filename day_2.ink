@@ -117,6 +117,7 @@ The line goes dead. You're not sure if he hung up or if the call just stopped.
 {day_1_gloria:
     Gloria is behind the counter when you walk in. She glances up and, for just a moment, you think you see the same blankness the motel owner had. Then it clears.
     "You again." She pours you a coffee without asking. "Sit down."
+    -> gloria_day_2_hub
 - else:
     The diner is called ALDRICH'S. Small, warm, mostly empty. Checkered floor, vinyl booths, a counter with stools. Hasn't been updated since the '80s.
     The woman behind the counter is in her early sixties. She moves with careful precision. Sharp eyes. Her name tag reads GLORIA.
